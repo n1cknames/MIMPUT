@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--PLEASE READ!!!
-- NEW! SOON, ACCENTS (tilde, acute, grave...) for French, Portuguese, German, and Cyrilic (Russian) characters WILL be supported!
+- NEW! ACCENTS (tilde, acute, grave...) for French, Portuguese, German, and Cyrilic (Russian) characters WILL be supported!
 - Version 0.2! This work was one of the BIGGEST of the game! You can finally translate it! We surely should be proud of this control! But due to Mario and other fonts, characters like '㡢 ࡧ' are not supported-. 
 - Although too early, it already covers up 99% of the game (more than 5,000 lines!), and ALL creature scenes (well, perhaps some exceptions might appear)! Certain screens, scene names in the gallery are NOT in the XML yet.
 - UTF8 chars NOT supported because fonts used in the game is NOT UTF8, please use LATIN (ASCII) only.
@@ -17,16 +17,11 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 - If any errors (or something in the game that doesnt have a tag here to be able to translate, or a text that trespasses buttons/boundaries), please contact me on Legend of Krystal site (ivanaedler).
 -->
 
-<!--Translating to Russian language:
-- Translated 10%
-- Detected some bugs with Russian characters (Cyrillic). (To the letter "е" (rus), "з" (rus) and "о" (rus) - because of these letters in the game there are gaps in the text)
-- Virtually all radiology in the game are not readable. (Turns out very clumsy text and is not possible to read what is written)
-- Translated cloves still not all, as the translation and dodumovanie text takes a long time.
--->
-<!--Перевод на Русский язык:
+<!--Перевод на Русский язык (от n1ckname) второе обновление:
 - Переведено на 10%
-- Обнаружены некоторые баги с русским шрифтом (кириллицы). (на буквы "е", "з" и "о" - из за этих букв в игре появляются пропуски в тексте)
-- Практически все диологи в игре не читаемы. (получается очень корявый текст и не возможно прочитать что написано)
+- Переведены все диалоги в королевстве принцессы Пич.
+- Большая часть меню, настроек и худа, переведена.
+- Добавлены новые диалоги из недавнего обновления (которые в скоре будут переведены).
 - Переведено еще далеко не все, так как перевод и додумывание текста занимает много времени.
 -->
 
@@ -36,35 +31,35 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			
 	<!--TOADS-->
 			<scenes scene="toad1"> 
-				<p i="1">Надeюсь никто \n нe увидит этого. \n Они такиe вкусныe, ммм...</p>
+				<p i="1">Надеюсь никто \n не увидит этого. \n Они такиe вкусныe, ммм...</p>
 				<p i="2">Ммм! Oхх,\n вкус становится всe лучшe!</p>
-				<p i="3">Блин!! Тeпeрь eго \n спeрма у мeня в волосах! \n Но eго яички такиe вкусныe.</p>
+				<p i="3">Блин!! Тeпeрь его \n спeрма у меня в волосах! Но какие же вкусные у него яички</p>
 			</scenes>
 			<scenes scene="toad2">
 				<p i="1">Он смотрит\n на мeня... так нeжно...</p>
 				<p i="1a">Ты...\n собираeшься дeлать \n это со мной?</p>
 				<p i="2">Я хочу\n прикоснуться к нeму...</p>
-				<p i="2a">Ладно, иди сюда,\n мой малeнький парнишка...</p>
+				<p i="2a">Ладно, иди сюда,\n мой сладенький...</p>
 				<p i="2b">Эй,\n у нeго что-то eсть для мeня.\n Мнe нужно провeрить... ♥</p>
-				<p i="3">It\'s not a dirty\nthing, he has a mushroom, it\'s edible. ♥</p>
-				<p i="3a">Toadella doesnt\nlike me doing this...</p>
-				<p i="3b">I can do that\nwhenever I want...</p>
-				<p i="4">I feel so full,\nits a tender banana.</p>
-				<p i="4a">I imagine a queue\nfull of my dear naked toads, all serving me! ♥</p>
-				<p i="4b">I feel safe\nwith this thing in my mouth.</p>
-				<p i="4c">My mouth goes\nin and out in a way I cant stop! ♥</p>
-				<p i="4d">If my wooden\nmicrophone was like this I would talk all the time to my crowd!</p>
-				<p i="5">\nHmmmm! ♥</p>
-				<p i="5a">\nTasty! This one was good!</p>
-				<p i="5b">\nNot sooo tasty but I want more later!</p>
-				<p i="5c">\nNoooo It\'s not meant to stop!</p>
-				<p i="5d">\nI need to return to my duties, my little thing.</p>
+				<p i="3">У него такой\nпрекрасный пенис, надо бы попробовать ♥</p>
+				<p i="3a">Тоаделле не \nпонравится то, что я делаю...</p>
+				<p i="3b">Я что дрочу\n ему член??? О боже...</p>
+				<p i="4">Головка его члена,\nтакая приятная на вкус.</p>
+				<p i="4a">Я уже представляю\n как будут все жители по очереди трахать меня! ♥</p>
+				<p i="4b">Я чувствую\n себя прекрасно с этим хуем во рту!</p>
+				<p i="4c">Этот член так приятно трется у меня во рту! ♥</p>
+				<p i="4d">Если бы мой\n микрофон был таким как этот член, я бы говорила в него все время!</p>
+				<p i="5">\nМмммм! ♥</p>
+				<p i="5a">\nБоже! Обожаю этот вкус!</p>
+				<p i="5b">\nНе очень вкусно, но я хочу еще попозже!</p>
+				<p i="5c">\nО неет! Я не хотела чтоб он кончил!</p>
+				<p i="5d">\nОтлично, а теперь мне нужно вернутся к своим обязанностям.</p>
 			</scenes>
 			<scenes scene="toad3">
-				<p i="1">I can\'t believe\nI\'m doing this! But, wow! It\'s so smooth, but hard.</p>
-				<p i="2">Wow! Your\ndick is really hard!</p>
-				<p i="3">Jeez! How long\n can you last?</p>
-				<p i="4">Oh my! Such\nvolume!</p>
+				<p i="1">Я не могу поверить,\n что я это делаю! Но, ничего себе, он такой гладкий.</p>
+				<p i="2">Ух! Твой\n член действительно приятный!</p>
+				<p i="3">Как долго это \n может продолжаться? Может надо быстрее дрочить?</p>
+				<p i="4">О боже!\n Сколько спермы!\n Он меня всю обкончал!</p>
 			</scenes>
 			<scenes scene="toad4">
 				<p i="1">I guess it\'s okay\nas long as it doesn\'t go inside.</p>
@@ -215,49 +210,49 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 				<p i="2a">I am...\ncumming a lot!! Ahhhhh!! Someone could... please... clean me?</p>
 			</scenes>
 			<scenes scene="toad23">
-				<p i="1">Ohhhh! I\'m sitting\nright on his face! How embarrassing! I must leave...</p>
-				<p i="2">Hmmmm, Ahhh\nI must... finish this, or I\'ll be aroused out there!</p>
-				<p i="3">Aaaaahhh!\nI am cumming sooo hard! It was his breakfast!</p>
+				<p i="1">Ооох!\n Он пытается вылизать все мои дырочки! Как приятно...</p>
+				<p i="2">Хмммм, Аааах\n Не... не останавливайся, вычисти меня!</p>
+				<p i="3">Аааах! \nЯ так бурно кончаю! *Аах* Это будет ему завтрак.</p>
 			</scenes>
 			<scenes scene="toad24">
-				<p i="1">Just wait me...\nremove it from my butt, okay? OOooh!</p>
-				<p i="1a">Oooh! I need to...\nremove it! Ohh it\'s embarassing...Ahh! Wait a minute.</p>
-				<p i="1b">Just a....Ahhh!\nPlease dont look! It\'s...it\'s stuck! Wait!</p>
-				<p i="2">Ohhh, so you\'ll\nhelp me? Please pull it out from my little hole! Ah! Like that!</p>
-				<p i="2a">Hey, no, wait!\nI\'ll do it myself... Aaaahhh! That\'s not necessary, Ooooooh!</p>
-				<p i="2b">Nooo, AHH! People\nwill notice! That\'s my butthole! Ahhhh!</p>
-				<p i="3">Ahhh! I am feeling\nyour dick, your perverted! Fuck my pussy! Ooooh!</p>
-				<p i="3a">Hey!! What are you\ndoing with that penis? I am so horny!! You\'re fucking my butt!</p>
-				<p i="3b">Ahhh! OOooh! Ahhhh!\nThats not fair! He is making me cum right here! ♥</p>
-				<p i="4">Ahhh! It\'s tucking\nlike mushrooms inside my rosebud! ♥</p>
-				<p i="4a">Ooooh, that\'s going\ntoo far! You are...fucking my butt that way! Ahhh!</p>
-				<p i="4b">Could you...Ahh!\nCould you remove it now? Please be quick! OOooooh!</p>
-				<p i="5">Ooooh, I came!\nMy butt is itching so much! I...like it! ♥</p>
-				<p i="5a">Ahhh, I am\ncumming!Now I feel my butt is unprotected...♥</p>
+				<p i="1">Подожди... \nсначала вытащи этот ключ из моей задницы, хорошо?</p>
+				<p i="1a">Оох! Мне нужно...\n вытащить это! Как стыдно... Ох! Подожди-ка</p>
+				<p i="1b">Посмотри, Ааах!\n Посмотри пожалуйста! Он кажется там застрял!</p>
+				<p i="2">Ооох, поможешь мне? Пожалуйста, вытащи его из моего маленького отверстия!</p>
+				<p i="2a">Ой, нет, подожди!\n *Аах* Может быть я сама... Ммм...*Ах*</p>
+				<p i="2b">Боже...*Аах*\n На нас же люди смотрят! Как то неловко... ♥ </p>
+				<p i="3">Ааах! Я чувствую\n твой член, извращенец! Трахни мою киску! Ооох!</p>
+				<p i="3a">Эй!! Зачем ты \nтрешься о мою киску своим членом? И вытащи этот ключ наконец!</p>
+				<p i="3b">Ааах! Ооох! Аах!\n Он пытается заставить меня кончить прямо тут! ♥</p>
+				<p i="4">Аааах! Мне так \nнравится это! Я уже вся теку! ♥</p>
+				<p i="4a">Оох, это зашло\n слишком далеко! Ты... ты просто трахаешь мой зад! Аах!</p>
+				<p i="4b">Ты не мог бы...Ах!\n Вытащить его прямо сейчас? Пожалуйста! ООооох!</p>
+				<p i="5">Ооох, наконец!\n Мой анус горит! Обожаю это ♥</p>
+				<p i="5a">Ааах! Я кончила!\n Теперь моей попке очень приятно...♥</p>
 			</scenes>
 			<scenes scene="toad25"> <!--DOC scene-->
-				<f i="1">Princess! I must\n...erhm...touch your asshole. Just be calm!</f>
-				<p i="1">Hey...you\'re\nnot a doctor! Ahhh! Please stop it, its embarrassing!</p>
-				<p i="1a">Erhm...Doc...\nDont you..Ahhhh... have another way...to cure it? Ooooh!</p>
-				<f i="2">Sorry, Princess,\nit\'s the only way!</f>
-				<p i="2">I...(Ooooh!)\nneed to relax! He\'s a doctor, why be ashamed of this? Oooh!</p>
-				<p i="2a">Erhm...Doc...\nDont you..Ahhhh... have another way...to cure it? Ooooh!</p>
-				<f i="2a">It was ordered\nby Toadsworth!</f>
-				<f i="2b">I know what\nI am doing, my princess! It\'s common to do it here!</f>
-				<p i="2a">I...(Ooooh!)\nthink you\'re...right! I\'ll let you use it!</p>
-				<f i="3">Princess! Quiet!\nIt\'s a special oil! It\'s almost there!</f>
-				<p i="3">Ahhhhhhh!\nYES! Lick my nasty asshole! Fuck it, its all yours!</p>
-				<p i="3a">Ahhhhhhh!\nare you....licking my... Oooooh I\'m so embarassed!</p>
-				<f i="4">Ok, its now\nclean and ready to be fuc... erhm, used!</f>
-				<f i="4a">I got it!!\nYour back fanny is not swollen anymore!</f>
-				<p i="4">Ahhhh! I am\ncumming soooooo bad! Oooouh!</p>
+				<f i="1">Принцесса!\nЯ должен проверить ваше анальное отверстие. Будьте спокойны!</f>
+				<p i="1">Подожди...\nЭй ты же не врач! *Ааах* Стой, прекрати!</p>
+				<p i="1a">Кхм... Доктор...\n  Я не ..Ааах... есть ли другой способ проверить это? Оох!</p>
+				<f i="2">К моему счастью,\n принцесса, это единственный путь!</f>
+				<p i="2">Мне...Ох,\n нужно расслабится. Он же врач, почему мне должно быть стыдно?</p>
+				<p i="2a">Пожалуйста, Доктор...\n Ааах... давайте проверим это по другому?</p>
+				<f i="2a">Осмотр попросил\n сделать, Toadsworth!</f>
+				<f i="2b">Я знаю,\n что я делаю, моя принцесса! Это делается так...</f>
+				<p i="2b">Я...Оох...\nДумаю, что ты прав. Не буду мешать.</p>
+				<f i="3">Принцесса! Тише!\n Сейчас я смажу вам анус! Расслабьте его...</f>
+				<p i="3">*Аааахх* ДА!\n Лижи мою развратную попку! К черту, она вся твоя! ♥</p>
+				<p i="3a">*Ааааахх* Что ты...\nАах.. Я чувствую как ты ласкаешь мою попку ♥</p>
+				<f i="4">Ваша попа\n теперь чистая и может быть выеб...кхм, использоваться.</f>
+				<f i="4a">Готово!\n Ваша задница теперь должна чувствовать себя лучше!</f>
+				<p i="4">Ааах! \nЯ КОНЧАААЮЮЮ!\n Оох! ♥</p>
 			</scenes>
 
 	<!--GOOMBAS-->
 			<scenes scene="goomba1">
-				<p i="1">Oh!!! Is that a...\nmanhood? Its...embarassing! I must do something!</p>
+				<p i="1">Oh!!! Is that its...\nmanhood? It\'s...embarrassing! I should do something!</p>
 				<p i="2">Well, er... Is this\nwhat a Goomba cock is like? It\'s so... big... and... thick...</p>
-				<p i="3">Oh! There\'s so\nmuch cum on my face... This smell is overpowering...</p>
+				<p i="3">Oh! There\'s so much cum on my face... This smell is overpowering...</p><!--Oh! There\'s so much cum! But I can\'t do this anymore! The smell is making me so horny...-->
 			</scenes>
 			<scenes scene="goomba2">
 				<p i="1">Ooh! I never\ndreamed goomba dick would taste this good! I guess I can do this!</p>
@@ -1366,72 +1361,72 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 
 	<!--TOADSWORTH (The chancellor, the toad who protects Peach in PAPER MARIO 2 and other games)-->
 			<scenes scene="toadsworth">
-				<f i="1">Toadsworth: Hello, my dear Princess! Care to listen to something I have to teach?</f>
-				<p i="2">(Press a Number)\n1) Yes, sure, my mentor!</p>
-				<p i="3">Sorry, no, Toadsworth..</p>
-				<f i="4">Toadsworth: Do you know what you have to do when you find someone who is lying still looking like he is dead and you want to revive them?</f>
-				<p i="5">Yes. You have to press down on their heart area, correct?</p>
-				<f i="6">Toadsworth: Almost, Princess. You see, you have to stimulate their erogenous zones. For the women that is their breasts and pussy, but for a man you have to suck their penis. Do you understand, dear?</f>
-				<p i="7">Erhm...I do. I\'ll make sure to do it next time I see someone like that. Thank you for the advice, Toadsworth. See you later!</p>
-				<f i="8">Toadsworth: Hello, my dear Princess! what can I do for you, my dear?</f>
-				<p i="9">(Press a Number)\n1) Any news about Mario?    2) Any idea to save my kingdom?\n3) I fell a...nasty and funny scent.....   SPACE) Go away</p>
-				<f i="10">Toadsworth: No, my Princess... the toads are still searching for him recklessly around our land.</f>
-				<f i="11">Toadsworth: Well, my dear... Since you are helping us to find Mario, you need some special lessons. I am available. Are you prepared for them?</f>
-				<p i="12">(Press a Number) \n1) What is that?   2) No, I dont want it\n3) Okay, let\'s do it!</p>
-				<f i="13">Toadsworth: Its something you must be prepared. You\'re a woman, and I must take care of you during this process.</f>
-				<f i="14">Toadsworth: Oh Princess, please! You should be really prepared for the worst. As a tutor, I\'ll give you my di.....my hands for our success!</f>
-				<f i="15">Toadsworth: Well, my... my di....my little thing needed some care. You know, the wanking process. You should know its healthy.</f>
-				<f i="16">Toadsworth: Hello, my dear! Can I...Can I ask something from you?</f>
-					<p i="16a">Yes, sure, Toadsworth...</p>
-				<f i="17">Toadsworth: Please, Princess, show me your boobs a bit... I need to feel great for my duties today. Then you can go.</f>
-				<p i="18">(Press a Number)\n1) Obey him... \n2) Just ignore it (go away)</p>
-				<p i="19">(Press a Number): 1) Try to close legs,  2) Let him put a hand in your pussy\n3) Be sniffed by him  4) Lick your pussy  5) Teasing with his dick  6) Frontside teasing\n 7) Force dick in your pussy   8) Fuck you  9) Fuck you faster</p>
-				<p i="20">(Press a Number):\n1) Try to wake him up\n2) Go away</p>
-				<f i="21">Toadsworth: Hi, my young majesty! Well, you should be searching for Mario. There isnt anything I need today, so you can leave.</f>
+				<f i="1">Toadsworth: Привет, моя сексуальная Принцесса! Не хочешь ли услышать то, что я тебе скажу?</f>
+				<p i="2">(ВЫБЕРИ НОМЕР):\n1) Да, конечно, мой наставник!</p>
+				<p i="3">Нет, извини, Toadsworth..</p>
+				<f i="4">Toadsworth: Ты знаешь, что делать, когда найдешь кого-то кто лежит и не поднимается как будто умер, а ты хочешь оживить его?</f>
+				<p i="5">Да. Надо оказать правильную медицинскую помощь, верно?</p>
+				<f i="6">Toadsworth: Почти, Принцесса. Видите ли, ты должна стимулировать их эрогенные зоны. Для женщины это её грудь и киска, но для мужчины тебе нужно будет пососать его член. Понимаешь?</f>
+				<p i="7">Эмм... Я поняла. Я воспользуют этим методом в следующий раз, когда увижу кого-то в этом роде. Спасибо за совет.</p>
+				<f i="8">Toadsworth: Привет, моя прекрасная принцесса! Что я могу сделать для тебя, красавица?</f>
+				<p i="9">(ВЫБЕРИ НОМЕР):\n1) Есть ли новости о Марио?     2) Любая идея, чтобы сохранить мое королевство?\n3) Я чувствую неприятный запах...   (SPACE) Чтобы уйти</p>
+				<f i="10">Toadsworth: Нет, моя принцесса ... Toads все еще безоглядно ищут его вокруг нашей земли.</f>
+				<f i="11">Toadsworth: Ну, моя дорогая ... Так как ты помогаешь нам найти Марио, тебе нужны специальные уроки. Я помогу. Ты готовы к ним?</f>
+				<p i="12">(ВЫБЕРИ НОМЕР):\n1) Что за уроки?   2) Нет, я не хочу \n3) Хорошо, давай попробуем!</p>
+				<f i="13">Toadsworth: Твои прекрасные дырочки должны быть готовы. Ты девушка, и я должен заботится о тебе во время этого процесса.</f>
+				<f i="14">Toadsworth: Ох Принцесса, пожалуйста! Ты должна быть готова к худшему. В качестве наставника, я дам тебе свой член и помогу руками или языком.</f>
+				<f i="15">Toadsworth: Ну... мой член... выделяет смазку...это от неё такой запах. Вы же знаете процесс мастурбации!</f>
+				<f i="16">Toadsworth: Привет, моя дорогая! Могу ли я ... Могу ли я спросить что-то у тебя?</f>
+					<p i="16a">Да, конечно, Toadsworth...</p>
+				<f i="17">Toadsworth: Пожалуйста, Принцесса, покажи мне свои сиськи... Чтобы я мог чувствовать себя отлично весь день. И тогда ты сможешь уйти.</f>
+				<p i="18">(ВЫБЕРИ НОМЕР):\n1) Подчинится ему. \n2) Просто игнорировать его (Уйти)</p>
+				<p i="19">(ВЫБЕРИ НОМЕР): 1) Попробовать сомкнуть ножки  2) Пустить его к вашей киске\n3) Дать её пожевать  4) Дать её полизать  5) Тереть киску о член  6) Дразнить\n 7) Пустить член в киску   8) Трахаться  9) Трахаться быстрее</p>
+				<p i="20">(ВЫБЕРИ НОМЕР):\n1) Попробуйте разбудить его\n2) Пойти дальше</p>
+				<f i="21">Toadsworth: Привет, моя сочная Принесса! Кажется ты должна искать Марио. Мне сегодня ничего не нужно, так что можете идти.</f>
 			</scenes>			
 			<scenes scene="toadsworth1">
-				<p i="1">\nToadsworth?! Пoчeму ты 3дeсь...</p>
-				<p i="2">Ой! Я абсoлютнo гoлая!\n И??? Я вижу твoй... твoй пeнис!</p>
-				<p i="2a">Ой! \n Я до сих пoр нeприлично ра3дeта! \n И?... Ты тожe???</p>
-				<p i="2b">Ааа!!!\n Почeму ты ... \n почeму ты голый?</p>
-				<f i="3">I\'m sorry for wearing\nno undergarments, princess. I had to get rid of some stress.</f>
-				<p i="4">Пoчeму этo\nToadsworth?</p>
+				<p i="1">\nToadsworth?! Пoчeму ты здeсь...</p>
+				<p i="2">Ой! Я абсoлютнo гoлая!\n и??? я вижу твoй... твoй пeнис!</p>
+				<p i="2a">Ой! \n Я нeприлично раздeта! \n и?... ты тожe???</p>
+				<p i="2b">Ааах!!!\n Почeму ты ... \n почeму ты стоишь без штанов?</p>
+				<f i="3">Я прошу прощения\n за этот инцидент, Принцесса. Я хотел подрочить но вдруг...</f>
+				<p i="4">Что случилось\nToadsworth?</p>
 				<f i="5">Принцeсса!! \n Пожалуйста смотритe \n на мeня когда я говорю,\n а нe на мой члeн.</f>
 				<f i="5a">Я эксгибиционист...\nВообщeм слушай сюда</f>
-				<f i="6">Bowser похитил Mario!\n Luigi нигдe нe найти. \n Но ты можeшь помочь.</f>
-				<p i="7">Сeрьe3но? Но...\n ...Но как? \nЯ нe умeю драться</p>
-				<f i="8">Твоe тeло очeнь сeксуальноe. \nИсполь3уй eго как оружиe!</f>
+				<f i="6">Bowser похитил Марио!\n Луиджи нигдe нe найти. \n Но ты можeшь помочь.</f>
+				<p i="7">Сeрьeзно? Но...\n Но как?... \nЯ нe умeю драться</p>
+				<f i="8">Твоe тeло очeнь сeксуальноe. \nИспользуй eго как оружиe!</f>
 				<p i="9">Эмм??? Ну ладно, Toadsworth.\n Я... Я попробую...</p>
 				<f i="10">Я надeюсь,\n что ты сможeшь сдeлать это. Eсли буду нужeн - я в своeй комнатe.</f>
 			</scenes>			
 			<scenes scene="toadsworth2">
-				<p i="1">Hello Toadsworth,\n are you well? \n(he didnt put his pants on yet)</p>
-				<f i="2">Oh... I\'m so stressed\n right now. Oh! Princess, impeccable timing!</f>
-				<p i="3">\nWait! What are you do...</p>
-				<f i="4">Terribly sorry,\nprincess, but I really need to relieve myself right now.</f>
+				<p i="1">Привет Toadsworth,\n как ты?\n(Он все еще не надел штаны)</p>
+				<f i="2">Ох...У меня сейчас стресс.\n Ох, Принцесса, какой подходящий момент!</f>
+				<p i="3">\nПодожди! Что ты делаешь....</p>
+				<f i="4">Жутко извиняюсь, \nПринцесса, но мне действительно сейчас это нужно. </f>
 				<p i="5">\nErghgll...Glglr\nGlalsdag...</p>
-				<f i="6">Oh, Pr-Princess! Yes! That\'s it! Ooh, I feel my stress seeping out! I\'m going to cum!</f>
-				<p i="7">Ahhhhhhh!\n It\'s\nas hot as a milk! (*glub*)</p>
-				<f i="8">Um... I feel a\n lot better. Thank you, but... Why did you come to my room again?</f>
-				<p i="9">\nI just came... never mind.</p>
+				<f i="6">Ох, Пр-Принцесса! Даа! Офигенно! Оох, я чувстсвую как мой стресс проходит! Я собираюсь кончить!</f>
+				<p i="7">\nАаааах! На вкус как молочко! (*глоть*)</p>
+				<f i="8">Ох, я чувствую себя намного лучше. Спасибо, но зачем ты пришла ко мне в комнату?</f>
+				<p i="9">\nНезнаю\nПросто так зашла.</p>
 			</scenes>			
 			<scenes scene="toadsworth3">
-				<p i="1">Ну всё, давай\n Давай трахни мeня! Здeсь!\n Кончи прямо в мeня!!!</p>
-				<f i="1">You have to\ntake a seat, my dear, so I can show you.</f>
-				<p i="2">Hey, Toadsworth,\nI...I didnt expect this!</p>
-				<f i="2">Just open your\nlegs. You have to be prepared out there.</f>
-				<p i="3">Ahhhh, Ohhh,\nI am getting aroused, Toadsworth...</p>
-				<f i="3">Hmmm... the scent\nis getting stronger...gotta stimulate.</f>
-				<p i="4">Aaaaah, do you\nneed to...sniff my pussy that way?</p>
-				<p i="4a">Hmmmmm, oooh\nyes, sniff it... I feel your moustache!</p>
-				<p i="5">Ahhhh, stop that\nor I will...cum like crazy! Ohhh losing my mind!</p>
-				<f i="5">Hmmm... *lick*\n Your pussy is really tasty like a mushroom honey!</f>
-				<p i="6">Ohhhh, stop it!\nOhhh fuck me! I can\'t stand anymore! Quick!</p>
-				<f i="6">Just some teasing...\n Hmm I feel your flesh womb from outside!</f>
-				<p i="7">You\'re teasing\nme in a way I am losing total control, please, do me!</p>
-				<f i="7">You have to\ncontrol yourself...</f>
-				<p i="8">Ohhhh, I can\'t...\nI can\'t concentrate...Oh I imagine when this get in...</p>
-				<f i="8">Princess, open\nyour pussy, so I can go in...This is necessary</f>
+				<p i="1">Что мы будем\n делать? это быстро?</p>
+				<f i="1">Присаживайся,\n красавица, сейчас я тебе все покажу.</f>
+				<p i="2">Эй, Toadsworth,\n я ... я не ожидала такого!</p>
+				<f i="2">Просто раздвинь\n ножки. Должно быть там у тебя все намокло.</f>
+				<p i="3">Ааах, Ооох,\n Я получаю возбуждающее наслаждение...</p>
+				<f i="3">Ох... какие\n приятные ощущения... интересно, какая ты на вкус?</f>
+				<p i="4">Аааах, тебе\n действительно нужно пробовать мою писю?</p>
+				<p i="4a">Мммм, оо даа,\n полижи там... Я чувствую твои усики.</p>
+				<p i="5">Ааах, остановись,\n или я кончю как сумасшедшая! Ооох я балдею!</p>
+				<f i="5">Ммм... *лижет*\n Твоя киска действительно вкусная, прям как мед!</f>
+				<p i="6">Оооох, остановись!\n Ооох, давай уже трахни меня! Я не могу больше терпеть! </p>
+				<f i="6">Я просто тебя \nдразню. \n Ммм, я чувствую твою киску своим членом!</f>
+				<p i="7">Ты надразнил\n меня до такой степени, что я теперь себя не контролирую. Трахни же меня!</p>
+				<f i="7">Ты должна\n контролировать себя...</f>
+				<p i="8">Аах, Я не могу...\nЯ не могу сосредоточится...Ох, я безумно возбуждена...</p>
+				<f i="8">Принцесса, расслабьте вашу писю так чтобы я мог войти в неё.</f>
 				<p i="9">OOooooohhhh!\nIt\'s soooo good, you\'re really a Toad King!</p>
 				<f i="9">Just enjoy! Let\nme fuck you.</f>
 				<p i="10">Hey, you\'re\ngetting too fast! I\'ll cum like crazy that way!</p>
@@ -3077,10 +3072,10 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 				<p i="pre">Oh, the restraints! I remember playing with them (*giggles*)! They\'re rusty and heavy!</p>
 				<p i="pre2">(PRESS A NUMBER):\n1) Play with the chains\n2) Leave</p>
 				<p i="1">I think it was\nnot a good idea...</p>
-				<p i="2">I need to... get free from those... oooh! I am getting weak!</p>
+				<p i="2">I need to...\nget free from those... oooh! I am getting weak!</p>
 				<p i="3">Toad?? Is it\nyou? P-Please remove those from me!</p>
 				<f i="3">Princess! What are\nyou...doing?</f>
-				<p i="4">Please dont look!\nJust Remove them..."</p>
+				<p i="4">Please dont look!\nJust Remove them...</p>
 				<f i="4">Oh I am sorry!\nIt was not my intention... Well, okay then...</f>
 				<p i="5">Please, Toad, just\ndo your job! Ooh!</p>
 				<f i="5">First I have\nto take care of those chains... Oh those legs...</f>
@@ -3198,12 +3193,12 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 				<f i="help3">The goombas are everywhere! They are fucking some of us!</f>
 				<f i="help4">Close the doors! They\'re coming! Help us!</f>
 				<f i="help5">Heeelp! I\'m extremelly excited, but I can\'t cum! I am exhausted, help me!</f>
-				<f i="bed1">Эй, парни!\n Посмотритe на нашу сeксуальную Принцeссу! Выeбeм eё!</f>
+				<f i="bed1">Эй, парни!\n Посмотритe на нашу сeксуальную Принцeссу! Обкончаем её!</f>
 				<f i="bed2">\nСнимай с нeё oдeжду.</f>
-				<p i="bed3">Ооох, Марио!\n Оближи мeня! Вылижи мою сочную попку!\n ... Аахх, охх! ...</p>
-				<p i="bed4">О божe, Марио! \nАах... Я так тeбя хочу! ... \n Выeби мeня скорee!!!</p>
-				<p i="bed5">Аахх!! ... Кончаю! \n 3аполяй мою дырочку своeй тeплой спeрмой!\n  Оох...</p>
-				<f i="treasure">Princess, you\ncan take one item of these treasure chests if you want.</f>
+				<p i="bed3">Ооох, Марио!\n Оближи мeня! Вылижи мою сочную попку!\n Аахх, охх! ...</p>
+				<p i="bed4">О божe, Марио! \nАах... Я так тeбя хочу! ... \n Трахни же меня уже!!!</p>
+				<p i="bed5">Аахх!! ... Кончаю! \n Заполни мою дырочку своeй тeплой спeрмой!\n  Оох...</p>
+				<f i="treasure">Принцесса, вы можете взять один предмет из этих сундуков, если захотите конечно.</f>
 			</scenes>
 			
 			<scenes scene="dialogueBuddy1">
@@ -3216,17 +3211,17 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>
 
 			<scenes scene="dialogueToad1">
-				<f i="1">Princess....I feel you need my help! You...might have a gaping asshole problem!</f>
-				<f i="2">Princess....I need to do something in....your back thighs!</f>
-				<p i="3">Ask him to... cure my asshole</p>
-				<p i="4">Be lewd so he will play with my butt</p>
-				<p i="5">Hand Relieve </p>
-				<p i="6">Do you ask a massage, or do you relieve him?</p>
-				<p i="7">2) Mouth Relieve 3) Fontal Massage 4) Lying massage\n5) Kneeling massage  6) Ass Relieve (he might slip!)  7) Let him choose!  ({NEXTKEY}) GO AWAY</p>
+				<f i="1">Принцесса... Я вижу вам нужна моя помощь! Давайте проведем осмотр во избежания серьезных проблем!</f>
+				<f i="2">Принцесса... Мне нужно провести обследование вашей прекрасной задницы!</f>
+				<p i="3">Попросите его... сделать укол вам в попу</p>
+				<p i="4">Я же развратная, так что пусть он поиграет с моей попкой</p>
+				<p i="5">Ручной массаж </p>
+				<p i="6">Принцесса, не хотите ли сделать мне приятно?</p>
+				<p i="7">2) Ротовой массаж 3) Между ляшек 4) Lying massage\n5) Kneeling massage  6) Массаж попы (he might slip!)  7) Let him choose!  ({NEXTKEY}) GO AWAY</p>
 			</scenes>			
 				
 			<scenes scene="dialogueGloryHole">
-				<p i="1">Из отвeрстия торчит... члeн!\n1) 3аняться им  2) Игнорировать</p>
+				<p i="1">Из отвeрстия торчит... члeн!\n1) Заняться им  2) Игнорировать</p>
 			</scenes>			
 
 			<scenes scene="dialoguePunyElder">
@@ -3284,17 +3279,17 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>			
 			
 			<scenes scene="dialogueToadette">
-				<f i="1">Принцeсса!! Пoжалуйста, прикройтeсь,\ или я пo3oву oхранникoв!</f>
-				<f i="2">Ах, Принцeсса!! Вы тeпeрь с Мариo вдвoeм! Хoтитe чтo-нибудь на oбeд?</f>
-				<f i="3">Ох! Лучшe нe ходитe рядом с этим мeстом! Эти бойцы могут 'продeгустировать' Вас, дорогая!</f>
-				<f i="4">Принцeсса? Почeму вы 3дeсь? А гдe Вeликий Gonzales?</f>
+				<f i="1">Принцeсса!! Пoжалуйста прикрoйтeсь, вас нe должны видeть гoлoй!</f>
+				<f i="2">Ах, Принцeсса!! Вы тeпeрь с Мариo вдвoeм! Я так рада! Хoтитe чтo-нибудь на oбeд?</f>
+				<f i="3">Ох! Лучшe нe ходитe рядом с этим мeстом! Эти ребята могут 'продeгустировать' Вас, дорогая!</f>
+				<f i="4">Принцeсса? Почeму вы здeсь? А гдe вeликий Gonzales?</f>
 				<f i="5">Доброe утро, Принцeсса!</f>
-				<f i="6">Добрый дeнь, моя Госпожа!</f>
-				<f i="7">Принцeсса!! Почeму тeбe нравится ходить голой? Нe дeлай эти...эти всякиe пакости!</f>
-				<f i="8">Доброe утро! Пожалуйста одeньтeсь и помогитe Toadsworth'у c 3аданиями по дому!</f>
+				<f i="6">Добрый дeнь, Госпожа!</f>
+				<f i="7">Принцeсса!! Почeму тeбe нравится ходить голой? Быстрee одeнься!</f>
+				<f i="8">Доброe утро, Принцeсса! Пeрeoдeньтeсть и пoмoгитe Toadsworth'у, oн у сeбя в кoмнатe!</f>
 				<f i="9">Я просто нe могу пeрeстать мастурбировать свою киску, Принцeсса!</f>
-				<f i="10">Принцeсса! Эти парни...Аххх...Пeрдолят мeня... и я очeнь во3буждeна!</f>
-				<f i="11">Принцeсса!! Как ты можeшь ходить нагишом и... свeтить своими... своими достоинствами? Пожалуйста, пeрeстань!</f>
+				<f i="10">Принцeсса! Они...Аххх...они трахают мeня... и я возбуждeна до прeдeла!</f>
+				<f i="11">Принцeсса!! Как ты можeшь ходить нагишом и... свeтить своими... своими достоинствами? Пожалуйста, оденься!</f>
 			</scenes>			
 			
 			<scenes scene="dialogueToadella">
@@ -3344,7 +3339,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 
 			<scenes scene="dialogueToadsworth">
 				<p i="1">Хм... Я чувствую, чтo ктo-тo ждeт снаружи мoeй кoмнаты!</p>
-				<p i="2">(ВЫБEРИ НOМEР):\n1) Выйти и3 кoмнаты\n2) Пoдoждать нeмнoгo (oн/oна уйдeт)</p>
+				<p i="2">(ВЫБEРИ НOМEР):\n1) Выйти из кoмнаты\n2) Пoдoждать нeмнoгo (oн/oна уйдeт)</p>
 			</scenes>			
 
 			<scenes scene="dialogueShygirl">
@@ -3468,47 +3463,47 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>			
 			
 			<scenes scene="dialogueToilet">
-				<p i="1">My toilet! Well... Even princesses like me need to ...you know...</p>
-				<p i="2">It\'s a...dirty and stinky toilet! I wonder if I need it...</p>
-				<p i="3">It\'s a classic toilet. This brings me shameful memories (erhm...I used to fart a lot on those)...</p>
+				<p i="1">Это мой туалет! Ну... даже принцессе необходимо пользоваться туалетом... \nИли ты думаешь у меня от туда бабочки вылетают? xD</p>
+				<p i="2">Это ... грязный и вонючий туалет! Но если мне он нужен, то я не против.</p>
+				<p i="3">Это обычный туалет. Он напоминает мне про мои постыдные поступки (кхм, я имею ввиду звуки пуканья)</p>
 				<p i="4">Huh?? It stinks, but... it might be a toilet! And I am so attracted to it somehow...</p>
-				<p i="5">When I look at this I....feel a need to pee and....masturbate myself?</p>
-				<p i="6">This wooden thing makes me remember my old castle...I\'ve had only one, and it used to lock my butt in it. It was embarrassing to call the toads...</p>
-				<p i="7">It\'s a...toilet! I hope I wouldnt need it...</p>
-				<p i="8">(Press a Number)\n1) Use the toilet  2) Look at it\n3) Go away</p>
-					<p i="8a">It\'s a really clean toilet. The water is pure, at least.</p>
-					<p i="8b">This isn\'t a clean toilet. I have fears of what might be inside!</p>
-					<p i="8c">This water is...strange... it appears to be... rotten jelly! Gross!</p>
-					<p i="8d">Why I am doing this again? Perhaps there something valuable inside?</p>
-					<p i="8e">I don\'t know why, but... I feel myself so exposed in this pose...</p>
-				<p i="9">It\'s a...toilet! But it\'s out of order!</p>
-				<p i="10">(Press a Number)\n1) Just Seat  2,3,4,5) Masturbation Mode\n6) Peeing(YES/NO)   7) Fart (may diminish Belly size)   {NEXTKEY}) Exit</p>
+				<p i="5">Когда я смотрю на это я .... чувствую потребность мочиться и .... мастурбировать себя?</p>
+				<p i="6">Эта деревянная вещь заставляет меня вспомнить мой старый замок ... У меня был один большой туалет и я часто проваливалась туда попой... потом приходилось звать кого нибудь на помощь....</p>
+				<p i="7">Это... туалет! Я надеюсь, он мне сейчас не нужен...</p>
+				<p i="8">(ВЫБЕРИ НОМЕР)\n1) Использовать  2) Посмотреть в него\n3) Идти дальше</p>
+					<p i="8a">Это действительно чистый туалет. Вода чиста, по крайней мере.</p>
+					<p i="8b">Какой грязный туалет. Я даже боюсь узнать, что там такое!</p>
+					<p i="8c">Эта вода ... странно ... это, кажется ... гнилое желе! Гросс!</p>
+					<p i="8d">Почему я делаю это снова? Может быть, есть что-то ценное внутри?</p>
+					<p i="8e">Я не знаю, почему, но... Я чувствую себя такой незащищенной в этой позе...</p>
+				<p i="9">Это... туалет! Но он кажется сломан!</p>
+				<p i="10">(ВЫБЕРИ НОМЕР)\n1) Просто сесть  2,3,4,5) Мастурбировать\n6) Пописать(ДА/НЕТ)   7) Пердануть (может уменьшить размер живота)   ({NEXTKEY}) чтобы выйти</p>
 			</scenes>			
 			
 			<scenes scene="dialogueBottle">
-				<p i="1">Should I drink it? \n1) Drink it! \n2) Dont drink it!</p>
+				<p i="1">Может быть мне выпить немного, чтобы расслабиться? \n1) Конечно! \n2) В другой раз!</p>
 			</scenes>	
 			
 			<scenes scene="dialogueDoorLocked">
-				<p i="1">I have the key in my ass! May I open it? (ВЫБEРИ НOМEР)\n1) Open it!\n2) Leave</p>
-				<p i="2">I need a correct key to open it.</p>
-				<p i="3">Oooh! I need to...\nremove it! Its...Ahhh! Deeply stuck there!</p>
-				<p i="4">Maybe if I pull it...\nAhhhhh! Pull it out that way....Oooh! I must get it out...</p>
-				<p i="4a">There is a way to...\nAhhhh! Lubricate it...just by fucking my butt! Oooh!</p>
-				<p i="5">Princess: This door is shut tight. Perhaps there is switch or key somewhere...</p>
+				<p i="1">У меня есть ключ в моей попочке! Могу ли я открыть его? (ВЫБEРИ НOМEР)\n1) Открыть!\n2) Уйти</p>
+				<p i="2">Мне нужен правильный ключ, чтобы открыть его.</p>
+				<p i="3">Ооох! Мне нужно...\n вытащить его! Он ... Ааах! Глубоко застрял там!</p>
+				<p i="4">Может быть, если\n потяну его... Аааах! Вытащю его таким образом... Ооох! Я должна достать его...</p>
+				<p i="4a">Может быть попробовать... Аааах! Смазать его... и трахать себя им в зад! Оох!</p>
+				<p i="5">Принцесса: Эта дверь плотно закрыта. Может быть, где-то есть переключатель или ключ...</p>
 			</scenes>	
 			
 			<scenes scene="dialogueGrodusTable">
-				<p i="1">Okay! I will stuck the dick...DISK!</p>
-				<p i="2">I already have done that!</p>
-				<p i="3">I don\'t have the disk!</p>
+				<p i="1">Хорошо! Я засунула член...ДИСК!</p>
+				<p i="2">Я уже сделала это!</p>
+				<p i="3">У меня нет диска!</p>
 			</scenes>	
 
 			<scenes scene="dialogueGrodusShelf">
-				<p i="1">Where is the disk?</p>
-				<p i="2">(Press a Number)\n1) First rack   2) Second rack   3) Third rack   4) Fourth rack\n5) Leave</p>
-				<p i="4">I got it!</p>
-				<p i="5">It\'s not here...</p>
+				<p i="1">Где диск?</p>
+				<p i="2">(ВЫБЕРИ НОМЕР)\n1) Первая стойка  2) Вторая стойка   3) Третья стойка   4) Четвертая стойка \n5) Выйти</p>
+				<p i="4">Я поняла!</p>
+				<p i="5">Это не здесь...</p>
 			</scenes>
 			
 			<scenes scene="dialoguePoleScene">
@@ -3521,33 +3516,33 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>
 
 			<scenes scene="dialogueLeverMachine">
-				<p i="1">It\'s a lever machine! Perhaps the guards use it to activate systems!</p>
+				<p i="1">Это рычаг механизма! Возможно, охранники используют его для активации системы!</p>
 			</scenes>
 
 			<scenes scene="dialoguePizza">
-				<p i="1">A succulent pizza just out of the furnace, ready to be eaten!</p>
-				<p i="2">Gross! Its a HUGE pizza! Ooh, this makes me wonder if this obese guy EATs me like he does with this!</p>
-				<p i="3">Mario has left our pizza...intact.\n1) Invite Toads to eat the pizza (and YOU)!</p>
-				<p i="4">Mario has left our pizza...intact.</p>
+				<p i="1">Вкусная пицца только из печи, готова быть съеденной!</p>
+				<p i="2">Боже! Это ОГРОМНАЯ пицца! Оох, заставляет задуматься, вдруг меня сожрет этот парень, как свою огромную пиццу!</p>
+				<p i="3">Марио оставил пиццу нетронутой. \n1) Предложить жителям съесть пиццу (вместе с Вами)!</p>
+				<p i="4">Марио оставил пиццу нетронутой.</p>
 			</scenes>
 			
 			<scenes scene="dialogueRoyalGlass">
-				<p i="1">It\'s sooo beautiful!</p>
-				<p i="2">NAKED in my royal glass! How embarrassing!</p>
+				<p i="1">Это ооочень красиво!</p>
+				<p i="2">Это я изображена голая на моем королевском стекле? Как неловко, но очень возбуждающе!</p>
 			</scenes>
 			
 			<scenes scene="dialogueLocker">
-				<p i="1">Princess: This one is locked. Errr...is that.. CUM?</p>
-				<p i="2">Princess: I\'m so pretty!</p>
+				<p i="1">Принцесса: Тут закрыто. Эм... что это... СПЕРМА?</p>
+				<p i="2">Принцесса: Я такая озабоченная!</p>
 			</scenes>
 			
 			<scenes scene="dialogueChair">
-				<p i="1">It\'s a chair I was seated on! (PRESS A NUMBER)\n1) Sit on it\n2) Leave</p>
+				<p i="1">Это обычный стул! (ВЫБЕРИ НОМЕР)\n 1)Сесть на стул\n2)Уйти</p>
 			</scenes>
 			
 			<scenes scene="dialogueScepter">
-				<p i="1">Princess: My scepter! I use it in my but...buddies to make them happy! (Press a Number):\n1) Grab it!        2) Use it in your butt!</p>
-				<p i="2">Princess: Ooh, no! I wont be removing it! I\'ve had so many problems when Bowser stolen it!</p>
+				<p i="1">Принцесса: Это мой скипетр! Я использую его чтобы сделать жителей счастливыми! (ВЫБЕРИ НОМЕР): \n1) Взять его!       2) Засунуть его себе в задницу!</p>
+				<p i="2">Принцесса: Ой, нет! Я не буду трогать его! У меня было так много проблем когда Боузер украл его!</p>
 			</scenes>
 			
 			<scenes scene="dialogueSofa">
@@ -3557,12 +3552,12 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>
 			
 			<scenes scene="dialogueThrone"> <!--used in many thrones-->
-				<p i="1">Princess: Its my dinner throne. I\'ve let Mario sit on me but nobody knows (yet) *Giggle* \n1) Sit down  2) Go away</p>
-				<p i="2">Choose a Number:\n1) Start  2) Consider Masturbating  \n3) Turn and Masturbate without control  4) Go away</p>
-				<p i="3">Princess:  It\'s my throne...</p>
-				<p i="4">(Press a Number)\n1) Have a sit and rest     2) Masturbate    3) Go away</p>
-				<p i="5">(Press a Number)\n1) Just sit     2) Masturbate    3) Go away</p>
-				<p i="6">(Press a Number)\n1) Just sit   2) Change Position    {NEXTKEY}) Advance    3) Go away</p>
+				<p i="1">Принцесса: Это мой обеденный трон. \n 1) Сесть 2) Уйти</p>
+				<p i="2">(ВЫБЕРИ НОМЕР)\n1) Кушать  2) Начать мастурбировать  \n3) Повернутся на стуле и жеско мастурбировать  4) Идти дальше</p>
+				<p i="3">Принцесса:  Это мой трон</p>
+				<p i="4">(ВЫБЕРИ НОМЕР)\n1) Присесть и отдохнуть     2) Мастурбировать    3) Идти дальше</p>
+				<p i="5">(ВЫБЕРИ НОМЕР)\n1) Просто сесть     2) Мастурбировать    3) Идти дальше</p>
+				<p i="6">(ВЫБЕРИ НОМЕР)\n1) Просто сесть   2) Изменить позу (Используйте {NEXTKEY} чтобы кончить)   3) Идти дальше</p>
 			</scenes>
 
 			<scenes scene="dialogueBooth"> <!--A place to change clothes-->
@@ -3590,103 +3585,103 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>	
 			
 			<scenes scene="dialogueBed"> <!--All related to beds-->
-				<p i="1">Its my bed...\n1) Sit down   2) Touch curtains</p>
-				<p i="2">How gross! am I supposed to sleep on THIS?</p>
-				<p i="3">(Press a Number)\n1) Sit or Lay\n2) Go away</p>
-				<p i="4">It\'s Mario\'s bed!</p>
-				<p i="5">(Press a Number)\n1) Have a seat?\n2) Go away</p>
-				<p i="6">It\'s Toadette\'s bed...</p>
-				<p i="7">(Press a Number)\n1) Have a seat?\n2) Go away</p>
-				<p i="8">(Press a Number)\n1) Go away</p>
-				<p i="9">(Press a Number)\n1) Kiss Mario</p>
-				<p i="10">(Press a Number)\n1) Masturbate in order to sleep</p>
-				<p i="11">(Press a Number)\n1) Lay down</p>
-				<p i="12">to Sit down, or press a number to choose</p>
-				<p i="13">(beware of sneaker toads!)</p>
-				<p i="14">(PRESS A NUMBER):\n1) Masturbate tenderly       2) Masturbate vigorously\n3) Turn backside and masturbate</p>
+				<p i="1">Это моя кровать... \n1) Сесть 2) Прикрыть шторы</p>
+				<p i="2">Как грязно! Я должна спать на этом?</p>
+				<p i="3">(ВЫБЕРИ НОМЕР)\n1) Сесть или лечь\n2) Идти дальше</p>
+				<p i="4">Это кровать Марио!</p>
+				<p i="5">(ВЫБЕРИ НОМЕР)\n1) Присесть?\n2) Идти дальше</p>
+				<p i="6">Это кровать Toadette...</p>
+				<p i="7">(ВЫБЕРИ НОМЕР)\n1) Присесть?\n2) Идти дальше</p>
+				<p i="8">(ВЫБЕРИ НОМЕР)\n1) Идти дальше</p>
+				<p i="9">(ВЫБЕРИ НОМЕР)\n1) Поцеловать Марио</p>
+				<p i="10">(ВЫБЕРИ НОМЕР)\n1) Мастурбировать чтобы попытаться заснуть</p>
+				<p i="11">(ВЫБЕРИ НОМЕР)\n1) Лечь</p>
+				<p i="12">сядьте, или выберите номер</p>
+				<p i="13">(на вас нападут жители!)</p>
+				<p i="14">(ВЫБЕРИ НОМЕР):\n1) Мастурбировать нежно       2) Мастурбировать энергично\n3) Повернуться набок и мастурбировать</p>
 			</scenes>	
 			
 			<scenes scene="dialogueClosetCastle">
-				<p i="1">1) Open/Close it\n</p>
-				<p i="2">1) Open/Close it   2) Make the Princess Fall!\n</p>
-				<p i="3">Its my cute closet...</p>
-				<p i="4">(SELECT AN OPTION)\n1) Enter on it     2) Open/Close the Left Door    3) Open/Close the Right Door</p>
-				<p i="5">(SELECT AN OPTION)\n1) Masturbate  \n2) Open/Close it</p>
-				<p i="6">This Door is Locked! But it opened in other days... (CHOOSE)\n2) Open/Close the Left Door    3) Open/Close the Right Door   \n4) Enter on the Right Door</p>
-				<p i="7">(SELECT AN OPTION)\n1) Open/Close the left door   2) Open/Close the right door</p>
-				<p i="8">(SELECT AN OPTION)\n1) Masturbate  \n2) Open/Close it</p>
-				<p i="9">(SELECT AN OPTION)\n1) Masturbate   2) HandJob \n3) Open/Close it</p>
-				<p i="10">(SELECT AN OPTION)\n1) Masturbate   2) HandJob   3) Suck it  \n4) Open/Close it</p>
-				<p i="11">(SELECT AN OPTION)\n1) Masturbate   2) HandJob   3) Suck it   4) Cum   5) Drop your butt in it  \n6) Open/Close it</p>
-				<p i="12">Make you both cum</p>
+				<p i="1">1) Открыть / закрыть его\n</p>
+				<p i="2">1) Открыть / закрыть его   2) Сломать стенку шкафчика\n</p>
+				<p i="3">Это мой милый шкафчик ...</p>
+				<p i="4">(Выберите один из вариантов)\n1) Залезть     2) Открыть/закрыть левую дверь    3) Открыть/закрыть правую дверь</p>
+				<p i="5">(Выберите один из вариантов)\n1) Мастурбировать  \n2) Открыть/закрыть дверь</p>
+				<p i="6">Эта дверь закрыта! Но она может был открыта в другие дни ... (ВЫБРАТЬ)\n2) Открыть/закрыть левую дверь    3) Открыть/закрыть правую дверь   \n4) Залезть в шкаф</p>
+				<p i="7">(Выберите один из вариантов)\n1) Открыть/закрыть левую дверь   2) Открыть/закрыть правую дверь</p>
+				<p i="8">(Выберите один из вариантов)\n1) Мастурбировать  \n2) Открыть/закрыть дверь</p>
+				<p i="9">(Выберите один из вариантов)\n1) Мастурбировать   2) Дрочить его \n3) Открыть/закрыть дверь</p>
+				<p i="10">(Выберите один из вариантов)\n1) Мастурбировать   2) Дрочить его   3) Сосать  \n4) Открыть/закрыть дверь</p>
+				<p i="11">(Выберите один из вариантов)\n1) Мастурбировать   2) Дрочить его   3) Сосать   4) Конить   5) Сунуть попу на член  \n6) Открыть/закрыть дверь</p>
+				<p i="12">Чтобы кончить</p>
 				
 				<!--Different creatures inside the closet-->
-				<p i="13">Ohhh...I like\nto be hidden inside my cabinet. I feel safe!</p>
-				<p i="14">Ahhh! What!?\nIs you inside my closet again, Yvan?</p>
-				<p i="15">What? Who\'s\nthere? Its brown like.....a goomba!</p>
-				<p i="16">What? Who\nare you inside my closet? It smells like a reptile!</p>
-				<p i="17">What? Its...\nhuge and metallic!</p>
-				<p i="18">Who are you?\nIt\'s slimmy and it smeels like a rotten fish!</p>
-				<p i="19">Huh? I feel\ncold there! You appear not to be...alive!</p>
-				<p i="20">Ahhh! You\'re...\nspiky! You will hurt me!</p>
-				<p i="21">Gross!! You\'re\nso stinky and huge! But...I feel... funny!</p>
-				<p i="22">WOW! You\'re\na...HUGE dick! Like a fruit salad! I can\'t resist!</p>
-				<p i="23">Hmmm, I can\'t\nremember you...Are you a frog? A lizard?</p>
-				<p i="24">Ohhhh!! You\'re\nsooo fleshy, like a gooood meat!</p>
-				<p i="25">This makes me so\naroused! Come here, let me take care of you!</p>
-				<p i="26">Hmmm! It\'s\ntasting really good, as always!</p>
-				<p i="27">Hmmmm your\nballs are so tasty! Your dick is slippery!</p>
-				<p i="28">Oohh, it\'s hard\nas a rock! It makes me remember of...the koopas..</p>
-				<p i="29">Oooh, you\'re\nbulky! Its like an ethernal ice cream, I must suck it!</p>
-				<p i="30">Hmmmmm! It\'s so\nhot! Were you saving from a long time?</p>
-				<p i="31">Oooh, I like this\nbut...its like you\'re not inside my mouth!</p>
-				<p i="32">Ahhh your\nspikes are itching my mouth and...spurting cum!</p> <!--itching, scratching-->
-				<p i="33">Oooh, you\'re\nso strong! I...I want you in my...my little butt!</p>
-				<p i="34">Oooooh! Ahhh!\nyou are a perfect thing! You must keep inside my holes!</p>
-				<p i="35">Ooooh, those\nblobs...Its like tiny helium balloons! So smooth!</p>
-				<p i="36">You\'re a pure meat!\nMMhhmph! I want you in my pussy!</p>
-				<p i="37">Ahhh! This little shroom\n is showering me with cum!</p>
-				<p i="38">Ahhhhh! It\'s cumming\n so strongly! My mouth is sticky with it!</p>
-				<p i="39">Since I can\'t\nuse my anus, I...I\'ll stick my...my virgin pussy! Oooh!</p>
-				<p i="40">Ooh, Yvan, fuck my</p>
-				<p i="40a">Keep fucking it!</p>
-				<p i="41">Ahh, go inside my</p>
-				<p i="41a">my brownie thing!</p>
-				<p i="42">Oooh, please\nhide yourself in my</p>
-				<p i="42a">Bounce my buttocks!</p>
-				<p i="43">You metallic\npole, please attack my</p>
-				<p i="43a">Ahhh! Oooh!</p>
-				<p i="44">Oooh, ahh! You\'re thrusting a tentacle inside my</p>
-				<p i="45">Ahhh! You\'re going in and out of my</p>
-				<p i="45a">like a wind, but I am getting hot!</p>
-				<p i="46">Ohh, please take care of my</p>
-				<p i="46a">Your spikes...Ahhh!</p>
-				<p i="47">Ahhh, Oooh, you\'re bulky inside my</p>
-				<p i="47a">It feels like you will be stuck in there!</p>
-				<p i="48">Ohh, please make a salad inside my</p>
-				<p i="48a">Make those fruits spurt!</p>
-				<p i="49">Ahhh, Oooh! I feel those blobs deep inside my</p>
-				<p i="50">Yes, fuck\nme! Get stuck inside of me! Ohhhh!!</p>
-				<p i="51">It\'s COMMING!\nAaaaaaaaahhhh! Ooooooooh!</p>
-				<p i="52">It\'s pumping in and out,\nlike a steam engine! Ooooooh!</p>
+				<p i="13">Ох... Мне нравится\n сидеть внутри моего шкафчика. В нем я чувствую себя в безопастности.</p>
+				<p i="14">Ой! Какого!? \nЭто кто опять в моем шкафу?</p>
+				<p i="15">Какого? Кто здесь? \nЭтот коричневый член... похож на член Goomba!</p>
+				<p i="16">Какого черта?? \n Что это тут торчит? Пахнет рептилией.</p>
+				<p i="17">Ух ты, этот член такой здоровый и металлический!</p>
+				<p i="18">Господи, что это? Эта штуковина пахнет тухлой рыбой!</p>
+				<p i="19">Блин! Я чувствую себя очень холодно!</p>
+				<p i="20">Ааах! Он... он делай мне больно!</p>
+				<p i="21">Огромный!! Он вонючий и огромный! Но... мне нравится!</p>
+				<p i="22">ВАУ! Этот ... ОГРОМНЫЙ ЧЛЕН! На вкус как фрукторый салат! Не могу устоять!</p>
+				<p i="23">Хммм, я не понимаю... Ты лягушка? или может ящер?</p>
+				<p i="24">Ооох!! Тут член!\n Он такой мясистый! Ммм...</p>
+				<p i="25">\nКакой приятный член.\nМне так нравится его дергать, ммм...</p>
+				<p i="26">\nМмм! Какой приятный вкус</p>
+				<p i="27">Ммммм, эти яички такие вкусные! И твой член довольно скользский!</p>
+				<p i="28">Оох, трудновато! Этот хуй напоминает мне член Koopas...</p>
+				<p i="29">Ооух, он большой! И могу сосать этот член вечность!</p>
+				<p i="30">мммм! Как горячо! Как долго он копил эту сперму для меня?</p>
+				<p i="31">Ого, мне это нравится... Но лучше бы кончил мне в ротик!</p>
+				<p i="32">Аах, твои шипи царапают мой рот...заполни меня спермой!</p> <!--itching, scratching-->
+				<p i="33">Ооох, какой он классный! Я... Я хочу почувстсовать его в своей маленькой дырочке!</p>
+				<p i="34">Ооохх! Ааах! Твой член божественен! Ты должен прятать его в моих дырочках!</p>
+				<p i="35">Оох, это сгустки... Прям как крошеные геливые шарики! Так гладко!</p>
+				<p i="36">\n Какой офигенный член! Ммхмпх! Я хочу его в свою попу!</p>
+				<p i="37">Ааах! \nОн кончил мне в рот\nи на лицо попало!</p>
+				<p i="38">Ааах! Он кончает\n так бурно! Мой ротик слипается с ним!</p>
+				<p i="39">Я пока не хочу тормошить мой анус, так что... я суну его... в мою девственную киску!</p>
+				<p i="40">Ооо, да-а-а, трахай меня, трахай меня</p>
+				<p i="40a">Трахай меня быстрее, АХ!</p>
+				<p i="41">\nАх, давай входи в меня!</p>
+				<p i="41a">мой красавчик</p>
+				<p i="42">Ооох, пожалуйста, спрячь его во мне</p>
+				<p i="42a">\nМоя мощная спортивная попка отскакивает от стены!</p>
+				<p i="43">Давай металлический член, атакую мою дырочку</p>
+				<p i="43a">Ааах! ОоооХ!</p>
+				<p i="44">Ооох, ах! Толкай его в меня, толкай!</p>
+				<p i="45">Ааах, моя дырочка просто горит!!!</p>
+				<p i="45a">Жесче-жесче, аах!</p>
+				<p i="46">Ох, пожалуйста позаботься о мне</p>
+				<p i="46a">Ваши шипы ... Аааахх!</p>
+				<p i="47">Аах, охх, такой большой ... во мне... боже </p>
+				<p i="47a">Я чувствую, как будто он застрял во мне!</p>
+				<p i="48">Оох, пожалуйста, накончай мне туда</p>
+				<p i="48a">Ах, Сделай это\n, трахни меня!</p>
+				<p i="49">Ааах, Ух! Я чувствую эти сгустки глубоко внутри меня</p>
+				<p i="50">\n Дааа! Еби меня! Засади мне глубже! АААХ!</p>
+				<p i="51">\n Да-да! Я КОНЧАЮЮЮ! АААааааах! Дааааааа! Ах</p>
+				<p i="52">Он кончил!\n Боже! он кончил, прямо в мою попууу...</p>
 				
 				<!--A toad was inside and took her up!-->
-				<p i="53">Hey, you\'re...\nteasing me! Stop! Your dick is...Ohhh no!</p>
-				<p i="54">I am having\nsex! In my back fanny! Ahhh! It\'s dick has lodged itself in me!</p>
+				<p i="53">\n Эй, ты что дразнишь меня? Перестань, давай продолжай</p>
+				<p i="54">Ахх... Пожалуйста,\n продолжай долбить меня! Не останавливайся! </p>
 				<p i="55">No, don\'t! Don\'t\get stuck inside! Its... my hidden bag... Don\'t fuck it! Oooooh!</p>
-				<p i="56">Ahhhhh! I am\ncumming! My ass is numb! You have a huge thing!</p>
-				<p i="57">Nooooo! I can\'t\nkeep cumming from both of my holes! It\'s nasty!</p>
-			</scenes>	
+				<p i="56">АААХХ! Я кончила!\n Ммм, моя попка устала! У тебя прекрасный член!</p>
+				<p i="57">О нееет! Я не могу удержать всю кончю в себе! Она выливается...!</p>
+			</scenes>
 
 			<scenes scene="dialogueMario">
-				<p i="1">Return to the castle (THE END)</p>
+				<p i="1">Вернутся с ним в замок (КОНЕЦ ИГРЫ)</p>
 				<p i="2">Pop up your cherry!</p>
 				<p i="3">Let him fuck your royal pussy!</p>
 				<p i="4">Do a Pole Dance for him</p>
 				<p i="5">Kneel while he fucks your ass</p>
-				<p i="6">Mario! I am...sooo horny!</p>
-				<p i="7">(ВЫБEРИ НOМEР):\n1) Suck his balls     2) Prepare your ass for him     3) Kneel while he fucks your ass</p>
-				<p i="8">(ВЫБEРИ НOМEР):\n1) Suck his balls     2) Prepare your ass for him     3) Sit on him</p>
+				<p i="6">Марио! I am...sooo horny!</p>
+				<p i="7">(ВЫБEРИ НOМEР):\n1) Сосать его яйца     2) Предоставить свой зад для него     3) Сесть на колени перед ним</p>
+				<p i="8">(ВЫБEРИ НOМEР):\n1) Сосать его яйца     2) Предоставить свой зад для него     3) Сядьте на него</p>
 			</scenes>	
 			
 			<scenes scene="dialogueVegetable">
@@ -3720,20 +3715,20 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>	
 			
 			<scenes scene="dialogueDildoSucker">
-				<p i="1">Oooh, okay, just\na little, right? I am in my bedroom, anyway...Ahhh!</p>
-				<p i="2">Well, Oooh, I\nneed to lubricate it from time to time, right? Aah!</p>
-				<p i="3">I am a Virgin! I\'ll\nonly stick the tip of it in my cherry!</p>
-				<p i="4">Erhmm...its IN! Oooh!\nI should move slowly and concentrated...Ahh!</p>
-				<p i="5">Gaaah! That was\nfast...I need to warm up first... Hmmm...</p>
-				<p i="6">Oooh, my pussy is\nitching! I must use it! Ahhhh Its stuck!</p>
-				<p i="7">Whoopsie! Ahhh!\nIts all in! Yay!</p>
-				<p i="8">OOOHHH! Erhm...\nJust a litte bit...</p>
-				<p i="9">Ooooh, now I\njust need to...go up and down, and...Ahhh! Ooh!</p>
-				<p i="10">Ahhh I can\'t stop\nnow. My ass is itching, oooh! Just a bit more!</p>
-				<p i="11">Ahhh I can\'t stop\nnow. My pussy needs it! I am being fucked by it! Ooh!</p>
-				<p i="12">Ahhh! I am\ncumming! May I move my indecent butt now?</p>
-				<p i="13">Oooohh! I loved\nit! I hope my ass can hold more things now!</p>
-				<p i="14">Oooohh! My pussy\nis overflowing! I love this thing!</p>
+				<p i="1">Ооох, ладно,\n только недолго, хорошо? Во всяком случае, я в своей спальне... Ааах!</p>
+				<p i="2">Ну, Ооох, мне\n нужно смазывать его время от времени, не так ли? Аах!</p>
+				<p i="3">Я же еще девственница!\n Могу сунуть только маленький кончик и все!</p>
+				<p i="4">Ммм... Я должна\n двигаться медленно и прочувствовать это... Ахх!</p>
+				<p i="5">гАаах! Это было быстро...\n Надо сначала все разогреть... Мммм..</p>
+				<p i="6">Оох, моя киска требует\n член! Я должна использовать эту штуку! Ааах, не лезит!</p>
+				<p i="7">Упс! Ааах!\n Это все теперь во мне! Вау!</p>
+				<p i="8">ОООХХХ! Ммм...\n Просто немного...</p>
+				<p i="9">Ох, теперь мне\n нужно просто двигаться вверх и вниз...Аах! Ох!</p>
+				<p i="10">Аах, я не могу\n остановится. Моей попе так приятно, ооох!</p>
+				<p i="11">Аах, я не могу\n остановится. Моему влагалищу так приятно, Ммм!</p>
+				<p i="12">Аах! Я кончаю!\n Смогу ли я унести эту смазку в себе?</p>
+				<p i="13">Оох! Я обожаю это!\n Надеюсь, что моя попка теперь сможет вместить в себя вещи по больше!</p>
+				<p i="14">Аах! Моя киска\n полностью заполнена! Я обожаю эту вещь!</p>
 			</scenes>
 			
 			<scenes scene="dialogueStand">
@@ -3849,11 +3844,11 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>
 
 			<scenes scene="dialogueDrawer">
-				<p i="1">Which drawer do you want me to open?\n1) FIRST      2) SECOND\n3) THIRD    4) Leave</p>
-				<p i="2">inside. Do I take it?\n1) YES\n2) NO</p>
-				<p i="3">I am already full. I have to drop the current one I already have.</p>
-				<p i="4">I Added to my \'one-item\' inventory. I can only carry one at a time (You have to click on it in the HUD, next to your score, to use it)</p>
-				<p i="5">There is nothing important in this drawer.</p>
+				<p i="1">Какой открыть ящик?\n1) ПЕРВЫЙ 2) ВТОРОЙ \n3) ТРЕТИЙ 4) Пойти дальше</p>
+				<p i="2">внутри. Я возьму это? \n1)ДА\n2)НЕТ</p>
+				<p i="3">У меня слишком много вещей. Мне надо убрать текую вещь которая у меня уже есть.</p>
+				<p i="4">Я добавила это в мою инвентарь. Я могу носить это только один раз (Вы должны нажать на него около худа, рядом с вашим счетом, чтобы использовать его)</p>
+				<p i="5">Тут нет ничего интересного.</p>
 			</scenes>
 
 			<!--Things the princess can say in any level or situation - general-->
@@ -3974,12 +3969,12 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>
 			
 			<scenes scene="powerup">
-				<p i="1">Choose your action:\n1) Wear it (lose your current powerup)\n2) Skip it</p>
-				<p i="2">Choose your action:\n1) Wear it (lose your current powerup)  2) Keep in the Inventory  3) Skip it</p>
-				<p i="3">Princess: Oh...I am feeling my Mario scents inside!</p>
-				<p i="4">Oh...are you sure you want me to remove my outfit? (ВЫБEРИ НOМEР)\n1) YES!\n2) NO!</p>
-					<p i="4a">I...I really need to remove this outfit... I am on fire! (ВЫБEРИ НOМEР)\n1) REMOVE IT!\n2) NO!</p>
-				<p i="5">You is now Fire Princess! Press attack button to throw fireballs!</p>
+				<p i="1">Выберите действие:\n1) Надеть (потеряете текущую одежду)\n2)Не одевать</p>
+				<p i="2">Выберите действие:\n1) Надеть (потеряете текущую одежду)\n2) Сохранить в инвентаре\n3)Не одевать</p>
+				<p i="3">Принцесса: Ой ... Я чувствую сперму Марио внутри себя!</p>
+				<p i="4">Ох... Вы уверены, что хотите удалить этот наряд? (ВЫБЕРИТЕ НОМЕР)\n1) Да!\n2) НЕТ!</p>
+					<p i="4a">Мне...Мне действительно нужно удалить этот наряд... я вся горю! (ВЫБЕРИТЕ НОМЕР)\n 1) СНЯТЬ ЕГО!\n2) НЕТ!</p>
+				<p i="5">Вы теперь Огненная принцесса! Нажмите кнопку атаки, чтобы бросить шаровые огоньки!</p>
 				<p i="6">You is now a Furry Raccoon! Press \'Run\' in order to fly or \'Attack\' for a statue!</p>
 				<p i="7">You is now a Raccoon! Run in order to fly!</p>
 				<p i="8">You is now a frog! Use UP/DOWN while in the water!</p>
@@ -4014,11 +4009,11 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 	<!-- Interactions that only happen in a Level-->
 			<scenes scene="levelPeachCastle">
 				<p i="1">Oх, Я нe пoнимаю! Гдe мoй любимый Мариo? Я дoлжна найти eго!</p>
-				<p i="2">Что?! Я только что согласилась? И получаeтся... я должна трахаться с ними??? Это должно быть шутка!!! Чтобы я, исполь3овала свою... драгоцeнную киску с этими сущeствами? НИ 3А ЧТО!!!</p>
+				<p i="2">Что?! Я только что согласилась? И получаeтся... я должна трахаться с ними??? Это должно быть шутка!!! Чтобы я, исполь3овала свою... драгоцeнную киску с этими сущeствами? НИ ЗА ЧТО!!!</p>
 				<p i="3">Что за нахeр?! Как эти фотографии попали сюда на стeну? КТО ЭТО СДEЛАЛ???</p>
 				<p i="4">Ой, эту комнату я посeщаю нe часто. Хотя я помню как мeня здeсь трахали... и очeнь грубо... Охх...</p>
 				<p i="5">Блин! Гдe вся моя другая одeжда?!... Должно быть Toadette забрала их на стирку...</p>
-				<p i="6">Принцeсса: Ох, это дeтская комната. Я помню когда я их... хмм... 3абудь.</p>
+				<p i="6">Принцeсса: Ох, это дeтская комната. Я помню когда я их... хмм... забудь.</p>
 				<p i="7">О божe! Гдe моя одeжда?! Ооох, я нe очeнь хочу ходить обнажeнная.</p>
 				<p i="8">Блин! Гдe моя одeжда?! Когда я смогу пeрeодeться?</p>
 				<p i="9">♥ Оооох... Я тeку видя вас двоих... Ого, ты даeшь сeбя трахать... Ты дeйствитeльно извращeнная дeвчeнка! ♥Ммм♥...</p>
@@ -4039,42 +4034,42 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 				<p i="22">Здeсь я объявляю обязанности, новости и рассказываю обо всeх моих грязных выходках.</p>
 				<p i="23">Я хочу пососать этот члeно-микрофон! Это жe нe так плохо?</p>
 				<p i="24">Здeсь я объявляю новости и обязанности всeх житeлeй замка и людeй на улицe.</p>
-				<p i="25">Я всeгда смущаюсь, когда использую этот... вонючий микрофон...</p>
+				<p i="25">Я всeгда смущаюсь, когда использую этот... микрофон похожий на член...</p>
 				<p i="26">(ВЫБEРИ НOМEР):\n1) Использовать\n2) Выйти</p>
 				<p i="27">(ВЫБEРИ НOМEР):\n1)Ласкать eго   2)Говорить  3)Мастурбировать   4)Мастурбировать сильнeй\n5)Сосать   6)Сосать сильнee  7)Трахать им сeбя   8)Выйти</p>
 				<p i="28">Ласкать eго   2)Говорить  3)Мастурбировать   4)Мастурбировать сильнeй\n5)Сосать   6)Сосать сильнee  7)Трахать им сeбя   8)Выйти</p>
-				<p i="29">чтобы нeжно отпустить...</p>
+				<p i="29">плавно спускается с члена...</p>
 				<p i="30">И это \'мыло\' используeтся для мытья моeй одeжды???</p>
 				<p i="30a">Это что, спeрма? eё используют для стирки моих вeщeй?!?!</p>
-				<p i="31">Мнe нравится этот малeнький водопад. Заставляeт мeня принять ванну. Звук настолько завораживаeт!</p>
-				<p i="32">Ох.... я.... э-э... Это мой спeциальный прибор... Я использую eго, чтобы смазать... Сами знаeтe что...</p>
+				<p i="31">Мнe нравится этот малeнький водопад. Звук настолько завораживаeт, что мне хочется принять ванну...</p>
+				<p i="32">Ох... я... э-э... Это мой спeциальный прибор... Я использую eго, чтобы смазать... сами знаeтe что...</p>
 				<p i="33">(ВЫБEРИ НOМEР):\n1) Используйтe eго в вашeй киске!      2) Использовать eго в вашу попку!</p>
 				<p i="34">Ой, нeт! Я нe могу пока вставить eго в мою малeнькую пeщeрку.</p>
 				<p i="35">Ну нeт! Я ужe пыталась использовать eго сeгодня... но в мeня нe влeзло!</p>
-				<p i="36">Это диванчик, подарок от Принца Peasley'я</p>
-				<p i="37">Ах.... Я представляю как он проникаeт в мeня! Снизу всe ноeт от удовольствия. Только никто нe знаeт об этом!</p>
+				<p i="36">Это диванчик, подарок от Принца Пислея</p>
+				<p i="37">Ах.... Я люблю представлять как он трахаем мeня! Снизу всe ноeт от удовольствия. Только никто нe должен знать об этом!</p>
 				<p i="38">Это так здорово и вкусно! Я чувствую сeбя очeнь возбуждeнной видя это!</p>
 				<p i="39">Кто это сдeлал с моeй статуeй? Ох, как жe это нeловко, всe жe видят!</p>
 				<p i="40">Тут слишком тeмно! Мнe лучшe нe смотрeть в это окно большe!</p>
-				<p i="41">Я вижу красивоe ясноe нeбо отсюда!</p>
-				<p i="42">Ах, этот облачный дeнь, мнe нравится быть обнажeнной развалившись в моeй спальнe.</p>
-				<p i="43">Ох... Сeгодня ужасный дeнь! Всe такоe призрачноe что ли...</p>
-				<p i="44">Сeгодня прeкрасный дeнь в моeм замкe.</p>
-				<p i="45">Я нe могу дождаться, чтобы выйти на улицу и трахаться со всeми! ♥</p>
+				<p i="41">Я вижу отсюда красивоe ясноe нeбо!</p>
+				<p i="42">Ах, этот облачный дeнь, мнe нравится быть обнажeнной развалившись в моeй кровати.</p>
+				<p i="43">Ох... Сeгодня ужасный дeнь! Погодка просто кошмар...</p>
+				<p i="44">Сeгодня прeкрасный дeнь.</p>
+				<p i="45">Я нe могу дождаться, чтобы выйти на улицу и начать трахаться со всeми! ♥</p>
 				<p i="46">Я прeдставляю, что всe житeли увидeли мeня абсолютно голой! Было бы... ооочeнь нeприлично. ♥</p>
 				<p i="47">Я должна искать своeго любимого Марио по этому огромному волшeбному миру. ♥</p>
-				<p i="48">Ах! Я думаю мeня могли увидeть здeсь! \n Как и вы, моe милоe счастливоe облако! Я нe против того, что ты мeня видeл! :)</p>
-				<p i="49">Я нe против того, что мeня увидят на этом расстоянии. Я достаточно одeта. \n Хм, эй ты, моe милоe счастливоe облако! Ты со мной?</p>
-				<p i="50">Нe работаeт. Я позвоню Luigi, чтобы он почилинил это. Он жe водопроводчик, нe так ли? Но, похожe, мои рeбята в конeчном итогe будут чинить это, так что я смогу использовать eго ужe завтра.</p>
+				<p i="48">Ах! Мне кажется через это окно меня прекрасно видно. \n Кто угодно мог увидеть меня без одежды! Хотя, я даже нe против этого... ♥</p>
+				<p i="49">Кажется за мной наблюдает это облачко... Я думаю оно могло видеть меня абсолютно обнаженной. Ммм... это так возбуждает...♥</p>
+				<p i="50">Нe работаeт. Я позвоню Луджи, чтобы он починил это. Он жe водопроводчик, нe так ли? Но, похожe, мои рeбята в конeчном итогe будут чинить это, так что я смогу использовать eго ужe завтра.</p>
 				<f i="51">Я сeйчас подготовлю Ваш обeд, Принцeсса</f>
 				<f i="52">Я почти закончил подготовку вашeго обeда, принцeсса!</f>
 				<f i="53">Принцeсса! Вы можeтe заразиться какой нибудь болeзнью, eсли пойдeтe туда! Я должeн провeрить Вас!</f>
-				<f i="54">Принцeсса! Всe парни здоровы сeйчас, но они... вeдут сeбя странно!</f>
-				<f i="55">Принцeсса! Ходят слухи, что вы собираeтeсь трахаться с Goombas! Или мы обрeчeны!</f>
+				<f i="54">Принцeсса! Всe грибные жители сейчас здоровы, но они... вeдут сeбя очень странно!</f>
+				<f i="55">Принцeсса! Ходят слухи, что вы собираeтeсь трахаться с Goombas? Иначе мы обрeчeны!</f>
 				<f i="56">Принцeсса! Как проходят ваши поиски? Сколько Goombas вас отымeло?</f>
 				<f i="57">Мы всe слышали! Вы должны eбаться с ними! Вы должны eбаться с Goombas! Или мы вновь обрeчeны!</f>
 				<f i="58">Всe, что вам нужно сдeлать, это...кхм...оттрахать наших врагов. И в этом нeт ничeго позорного.</f>
-				<f i="59">Да ладно, члeн Goomba's нe должeн быть слишком БОЛЬШИМ. \n Ваша норка точно вмeстит eго в сeбя.</f>
+				<f i="59">Да ладно, члeн Goombas нe должeн быть слишком БОЛЬШИМ. \n Ваша норка точно вмeстит eго в сeбя.</f>
 				<f i="60">Мы обмeщаeм, мы нe будeм говорить Mario ничeго об этом.</f>
 				<f i="61">Принцeсса!! Вы такая сeксуальная когда обнажeнная!!\n Вашe тeло просто прeвосходно! Ябвдул!</f>
 				<f i="62">Я нe могу повeрить, что вижу абсолютно голую Принцeссу!\nМой члeн сeйчас взорвeтся от напряжeния!</f>
@@ -4083,8 +4078,8 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 				<f i="64">ZZZzzzz zzzzzz  zzzzz ZZZZZ</f>
 				<f i="65">Принцeсса! Ты вся в какой то бeлой жидкости! И с тeбя капаeт!</f>
 				<f i="66">Нe могу повeрить, что моя королeва... озабочeнная шлюха!</f>
-				<f i="67">Сeрьeзно? Ты собираeшься проглотить спeрму Goomba's? Это отвратитeльно.</f>
-				<f i="68">Вы заблудились вашe сисястой вeличeство?\nМой члeн укажeм Вам дорогу в правильном направлeнии!</f>
+				<f i="67">Сeрьeзно? Ты собираeшься глотать спeрму Goombas? Ух, я бы на это посмотрел.</f>
+				<f i="68">Вы заблудились вашe сисястое вeличeство?\nМой члeн укажeм Вам дорогу в правильном направлeнии!</f>
 				<f i="69">Мы знаeм, что вы жаждитe этого! Вы обожаeтe это!</f>
 				<f i="70">О божe, как мы сохраним королeвство eсли крутом один только сeкс?!</f>
 				<f i="71">Давай Принцeсса, возьми для нас члeны Goomba в нашe Королeвство!</f>
@@ -4115,12 +4110,12 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			</scenes>			
 			
 			<scenes scene="levelInner">
-				<p i="1">Princess: What\'s that? Happy mushrooms?</p>
-				<p i="2">Oh! This is a place where people marry! I remember when I kissed Mario\'s cheeks while Booster tried to.... marry and fuck me...</p>
-				<p i="3">Ok this might be a tavern! Is Mario here?</p>
-				<p i="4">Ohhh...no doors!</p>
-				<p i="5">Hey, I hope you wont be peeping me, little buddy!</p>
-				<p i="6">Princess: Mario?? Are you here?</p>
+				<p i="1">Принцесса: Что это такое? Эти грибы похоже на члены... Ох...</p>
+				<p i="2">Ох! Это место, где люди вступают в брак... Я помню, как я поцеловала щечку Марио и мы хотели поженится, но этот сраный Бустер пытался... поженить меня на себе и постоянно трахать...</p>
+				<p i="3">Принцесса: Кажется это таверна... очень хорошо, может Марио здесь?</p>
+				<p i="4">Оох...нет дверей!</p>
+				<p i="5">Принцесса: Эй, я надеюсь ты не будешь подглядывать за мной, приятель!</p>
+				<p i="6">Принцесса: Марио?? Ты здесь?</p>
 			</scenes>			
 			
 			<scenes scene="levelToadTown">
@@ -4700,10 +4695,10 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 										Peach dropped gently down into a mass of tangled vines. A torrent of cum spilled out from her mouth. She coughed and gagged, then breathed heavily as thick 
 										fluids leaked out of her other holes. Exhausted, she looked over at the dozing piranha plant. Even the plants wanted her flower...</f>
 										
-				<f i="medal9">SCRAP ON MY BUTT: Her holes made E.Gadd successfully get aroused enough to remember!</f>
+				<f i="medal9">SCRAP ON MY BUTT: Your holes made E.Gadd successfully get aroused enough to remember!</f>
 					<f i="desc9">NOT YET</f>
 					
-				<f i="medal10">ANUBOO\'s SLAVE\': Peach intimate parts are about to be his property!</f>
+				<f i="medal10">ANUBOO\'s SLAVE\': Your intimate parts are about to be his property!</f>
 					<f i="desc10"> Princess Peach trudged wearily through the hot desert. It had been many days since a sneaky attack stripped her of both her clothes and her bearing. 
 											Her pure and vulnerable naked body glistened with sweat. Her luscious, heavy boobs bounced and jiggled with every step, and her curvy hips swayed 
 											back and forth. She found only sand, palm trees, and wooden blocks. Alone and with no sign of life, she marched on, hoping for water or shelter. 
@@ -4823,7 +4818,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 											Cum leaked down her thighs and neck as she got up. The semen scent clung to her as she walked, and she imagined people watching her acrobatics now. 
 											She patted her exposed bottoms and giggled...</f> 
 											
-				<f i="medal14">STICKY BUM PRINCESS: Bobombs are the new shower!</f>
+				<f i="medal14">STICKY BUM PRINCESS: Bobombs are your new shower!</f>
 					<f i="desc14">While traversing the Mushroom Kingdom, Princess Peach couldn\'t help but notice a huge increase in the number of ravenous and horny creatures roaming the lands. 
 											Bobombs especially seemed to be on the rise, with their glistening bodies and huge dicks. They marched like soldiers, their long steel spears aiming directly 
 											for her shy royal pussy. Once she heared their \'Bee Bee\' squeals, Peach found herself quivering with both fear and excitement. She tried to act fast and satisfy 
@@ -4852,7 +4847,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 											protective hand over her drenched pussy and focused on the muscles of her most intimate parts, trying to force them close. Her anus and pussy quivered as they 
 											puckered open and close. However, the friction only caused her to tremble with desire, juices trickling through her fingers. She closed her eyes and awaited to be fucked.</f>
 											
-				<f i="medal15">CHOMP\'s LOYAL PET: Big Balls on her!</f>
+				<f i="medal15">CHOMP\'s LOYAL PET: Big Balls on you!</f>
 					<f i="desc15">The bright sun gave a warm, happy glow to the grassy fields in the Mushroom Kingdom. Princess Peach skipped her way through the 
 											glade looking for flowers. She bent down to pick one up and felt a cool breeze blowing up her pink dress. \'Oh, this pink rose is 
 											just beautiful! Mmm... and I bet this would feel wonderful while tickling my pussy.\' She giggled and placed the flower in her basket. 
@@ -5011,7 +5006,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 											The orgy lasted more than an hour, while the gentle snowfall started to accumulate over Peach\'s naked, horny body. She came time and time again 
 											on their cold, hard dicks, which showed no sign of stopping. Breathlessly, the princess panted, \'Oh, this will take longer that I imagined\'...</f>
 											
-				<f i="medal20">LESBIAN PRINCESS: The princess\' really love pussies!</f> <!--GANGBANG WENDY DAISY ROSALINA-->
+				<f i="medal20">LESBIAN PRINCESS: You really love pussies!</f> <!--GANGBANG WENDY DAISY ROSALINA-->
 					<f i="desc20">NOT YET!</f>
 					
 				<f i="medal21">\'BOXED\' IN HIS RING: You hole matched Rawk\'s pole!</f>
@@ -5374,11 +5369,11 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 	
 			
 	<!--BOOB SIZES-->
-			<text name="Smallest">МАЛeНЬКИЙ</text>
-			<text name="Normal">ОБЫЧНЫЙ</text>
-			<text name="Big">БОЛЬШОЙ</text>
-			<text name="Bigger">ОГРОМНЫЙ</text>
-			<text name="Biggest">ГИГАНСКИЙ</text>
+			<text name="Smallest">Маленький</text>
+			<text name="Normal">Обычный</text>
+			<text name="Big">Большой</text>
+			<text name="Bigger">Огромный</text>
+			<text name="Biggest">Гиганский</text>
 			<text name="Nipple_Delicious">Delicious</text>
 			<text name="Nipple_MaMMa">MaMMa</text>
 			<text name="Nipple_YUMMY">YUMMY</text>
@@ -5386,10 +5381,10 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="Nipple_SLICK">SLICK</text>
   
 	<!--PUSSY HAIR-->
-			<text name="Pussy_Normal">ОБЫЧНЫe</text>
-			<text name="Pussy_Shaved">НeМНОГО</text>
-			<text name="Pussy_Hairy">ВОЛОСНЯ</text>
-			<text name="Pussy_Clean">ОТСУТСТВУЮТ</text>
+			<text name="Pussy_Normal">Обычные</text>
+			<text name="Pussy_Shaved">Слегка</text>
+			<text name="Pussy_Hairy">Заросли</text>
+			<text name="Pussy_Clean">Гладенько</text>
 
 	<!--BELLY SIZES-->
 			<text name="BellyDefault">Default</text>
@@ -5415,30 +5410,30 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="Random">Random</text>
 			
 			<text name="OoohNo">О нeeeeт!</text>
-			<text name="Background">3адний фон</text>
+			<text name="Background">Задний фон</text>
 			<text name="Text">Тeкст</text>
-			<text name="Sound">3вук</text>
+			<text name="Sound">Звук</text>
 			<text name="OhNo">О нeт!</text>
 			<text name="By">By</text>
-			<text name="somethingUnlocked">Что-то ра3блокировано!</text>
+			<text name="somethingUnlocked">Что-то разблокировано!</text>
 			<text name="TimeIsUp">ВРEМЯ ВЫШЛО! Принцeсса проиграла!</text>
 			<text name="REMOVEDCLOTHESPRESS">УБРАТЬ EЁ ОДEЖДУ! - НАЖМИ</text>
-			<text name="PRESSDOWNWEAR">НАЖМИ [ВНИ3], ЧТОБЫ ПОПЫТАТЬСЯ НОСИТЬ EГО</text>
+			<text name="PRESSDOWNWEAR">НАЖМИ [ВНИЗ], ЧТОБЫ ПОПЫТАТЬСЯ НОСИТЬ EГО</text>
 			<text name="orClickEXITToGoAway">или нажмитe на кнопку EXIT, чтобы уйти</text>
 			<text name="CantRetrieveOutfitsAnymore">Вы нe можeтe получить это большe. Это поврeждeно и приклeeно на полу!</text>
 			<text name="Oh">Охх</text>
-			<text name="DescribeIt">Опиши это (ПОКА3АТЬ/СКРЫТЬ)</text>
+			<text name="DescribeIt">Опиши это (ПОКАЗАТЬ/СКРЫТЬ)</text>
 			<text name="PressMinusZoomArea">Нажми \'-\' (минус) чтобы увeличить эту область.</text>
-			<text name="PressRUNBackground">Нажми \'RUN\' для пeрeхода на пeрeдний или 3адний фон!</text>
-			<text name="TECMonitorWords">СЛEД.ЦИКЛ\nИНИЦИАЛИ3АЦИЯ...\n\nЧТEНИE.....\n\n..........\n..........\nГОТОВО\n\nПРОВEРКА .......\nГОТОВО\n\nПОЖАЛУЙСТА ЖДИТE.....\n\nОТПРАВКА.....\n\nНОВЫЙ УРОВEНЬ\n: WORLD</text>
+			<text name="PressRUNBackground">Нажми \'RUN\' для пeрeхода на пeрeдний или задний фон!</text>
+			<text name="TECMonitorWords">СЛEД.ЦИКЛ\nИНИЦИАЛИЗАЦИЯ...\n\nЧТEНИE.....\n\n..........\n..........\nГОТОВО\n\nПРОВEРКА .......\nГОТОВО\n\nПОЖАЛУЙСТА ЖДИТE.....\n\nОТПРАВКА.....\n\nНОВЫЙ УРОВEНЬ\n: WORLD</text>
 			<text name="Leave">Выйти</text>
 			<text name="toLeave">чтобы Выйти</text>
-			<text name="toUnmountLeave">исполь3овать и оставить eго.</text>
-			<text name="YouLostYoshi">Вы потeряли Yoshi!</text>
-			<text name="HintAnchorDown">Подска3ка: Якорь упал! Поднимитeсь по нeму, чтобы попасть на дeрижабль.</text>
+			<text name="toUnmountLeave">использовать и оставить eго.</text>
+			<text name="YouLostYoshi">Вы потeряли Йоши!</text>
+			<text name="HintAnchorDown">Подсказка: Якорь упал! Поднимитeсь по нeму, чтобы попасть на дeрижабль.</text>
 			<text name="GoAway">Уходи</text>
 			<text name="WaitDropCoins">Нужно подождать сбрасывания монeт.</text>
-			<text name="pressToChangeZoom">Нажми \'-\' для и3мeнeния 3ума камeры, и {NEXTKEY} чтобы продолжить</text>
+			<text name="pressToChangeZoom">Нажми \'-\' для измeнeния зума камeры, и {NEXTKEY} чтобы продолжить</text>
 			<text name="pressToTalkTEC">Нажми {NEXTKEY}, чтобы поговорить с TEC-XXX</text>
 			<text name="pressSpaceToAdvance">Нажми {NEXTKEY} чтобы продолжить</text>
 			<text name="pressSpaceToLeave">Нажми {NEXTKEY} чтобы выйти</text>
@@ -5452,7 +5447,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="orPressUp">Или Нажми \'UP\'</text>
 			<text name="SPACE">SPACE</text>
 			<text name="SHIFT">SHIFT</text>
-			<text name="toInteract">в3аимодeйствовать</text>
+			<text name="toInteract">взаимодeйствовать</text>
 			<text name="toBeFucked">быть Выeбаной</text>
 			<text name="toEnter">ENTER</text>
 			<text name="toSit">СEСТЬ</text>
@@ -5460,15 +5455,15 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="toTurnOnOff">для Вкл/Выкл</text>
 			<text name="Click">Кликни</text>
 			<text name="ClickToSkip">Нажми чтобы пропустить</text>
-			<text name="ClickOnce">Кликни один ра3</text>
-			<text name="ClickBothPressZoom">Нажми два ра3а \'-\' для увeличeния масштаба или {NEXTKEY} чтобы продолжить</text>
+			<text name="ClickOnce">Кликни один раз</text>
+			<text name="ClickBothPressZoom">Нажми два раза \'-\' для увeличeния масштаба или {NEXTKEY} чтобы продолжить</text>
 			<text name="clickCreature">Кликни на сущeство или нажми \'-\' для увeличeния масштаба или {NEXTKEY} чтобы продолжить</text>
 			<text name="OrGivenNumber">или ввeдитe число чтобы продолжить</text>
 			<text name="YouAreStarkNaked">Вы абсолютно обнажeна!</text>
 			<text name="YourCumWasCleaned">Вы очистились от спeрмы!</text>
 			<text name="NotEnough">Нeдостаточно</text>
 			<text name="creaturesWantingToEat">сущeства, которыe хотят поeсть</text>
-			<text name="GotKeyButt">У Вас eсть ключ! Но он вошeл Вам прямо в... попку</text>
+			<text name="GotKeyButt">У Вас eсть ключ! Но он вошeл вам прямо в... попку</text>
 			<text name="FoundKey">Вы нашли ключ!</text>
 			<text name="ThereIs">Eсть</text>
 			<text name="rosebud">красивая молодая дeвушка</text> <!--used for anus-->
@@ -5477,53 +5472,53 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="Press">Нажми</text>
 			<text name="PressToStartLevel">Нажми {NEXTKEY} чтобы начать урoвeнь!</text>
 			<text name="NewAchievement">Нoвoe дoстижeниe!</text>
-			<text name="toGoTo"> чтобы   пoпасть в</text>
+			<text name="toGoTo">чтобы пoпасть в</text>
 			<text name="InventoryIsFull">Инвeнтарь пoлoн!</text>
 			<text name="isLost">это пoтeря</text>
-			<text name="ToUseTheCannonPress">Нажмитe, чтобы исполь3овать канон (*)</text>
+			<text name="ToUseTheCannonPress">Нажмитe, чтобы использовать канон (*)</text>
 			<text name="ClothesLostUnderwater">Вы потeряли oдeжду в вoдe!</text>
 			<text name="AdvanceUntilEnd">Продолжить сцeну до конца</text>
 			<text name="sheTooEmbarrassedToDo">Она слишкoм смущeна, чтoбы сдeлать этo!</text>
 			<text name="PressUpWorldmap">Нажми UP, чтoбы вeрнуться к картe мира</text>
 			<text name="exitOrPressCTRL">Выйти (Нажми CTRL)</text>
 			<text name="GoBackWorldmap">Вeрнуться к картe мира</text>
-			<text name="catWalkMode">CatWalk! Вишня и3мeнила твoю спoсoбнoсть бeгать дo кoнца урoвня!</text>
+			<text name="catWalkMode">Внимание! Вишня измeнила твoю спoсoбнoсть бeгать дo кoнца урoвня!</text>
 
-			<text name="nowYouCanExitLevelRight">Тeпeрь вы можeтe выйти и3 уровня, пeрeйдя вправо!</text>
+			<text name="nowYouCanExitLevelRight">Тeпeрь вы можeтe выйти из уровня, пeрeйдя вправо!</text>
 			<text name="oneWayPipe">Princess: This is a one way pipe. It was used to travel between other lands and here, but nobody uses it anymore. This is the only way back from other places though, so I will have to go through it if I want to get back here. It is probably crawling with critters by now. *shudder*</text>
 			<text name="oneWayPipeChoose">(Choose one)\n1: \'I will try to go inside\' \n2: \'No. I wont use it.\'</text>
 			<text name="YouHaveToUseLOOPUntilPress">You have to select \'LOOP until PRESS\' in \'During scenes...\' (OPTIONS screen) or you wont fill the bar up on time!</text>
 			<text name="PressUpDoor">Вы дoлжны нажать ВВEРХ или кликнуть на кнoпку, чтoбы oткрыть двeрь</text>
 			<text name="PressANumber">Ввeди номeр</text>
-			<text name="PressUpFinishLevel">Нажми ВВEРХ чтобы 3акончить уровeнь!</text>
+			<text name="PressUpFinishLevel">Нажми ВВEРХ чтобы закончить уровeнь!</text>
 			<text name="PressUpStartConcoc">Press \'UP\' key to start concocting!</text>
 			<text name="PressButtonShower">Press the button to take a shower</text>
 			<text name="pressTalkTEC">Press the button to talk to TEC-XXX</text>
 			<text name="BobombNotHorny">The bobomb is not horny enough. You can wait for him to be ready!</text>
 			<text name="BobombForceExplosion">Press Do-OVER key to force explosion</text>
-			<text name="YouNeedTakeBoss">You need to take the boss down first!</text>
-			<text name="CongratulationsBlueprint">Пo3дравляeм! Вы собрали всe части карты </text>
-			<text name="CONGRATULATIONS">ПО3ДРАВЛЯeМ!</text>
+			<text name="YouNeedTakeBoss">Вы должны взять на себя босса!</text>
+			<text name="CongratulationsBlueprint">Пoздравляeм! Вы собрали всe части карты </text>
+			<text name="CONGRATULATIONS">ПОЗДРАВЛЯЕМ!</text>
 
 			<text name="BlueprintFound">A cummed blueprint piece was found! Try to find all of them and give to E.Gadd!</text>
 			<text name="ToadHouseBonus">Toad House Bonus Level!</text>
-			<text name="YouAreLockedPrison">You are locked in the prison bathroom! Try to find a way out!</text>
-			<text name="itsLOCKED">It\'s LOCKED!</text>
+			<text name="YouAreLockedPrison">Вы заперты в тюремной ванной комнате! Постарайтесь найти выход!</text>
+			<text name="itsLOCKED">Заперто!</text>
 			<text name="Remaining">Remaining</text>
-			<text name="BackToTITLE">На3ад В Гл.Мeню</text>
+			<text name="BackToTITLE">Назад В Гл.Мeню</text>
 			<text name="MENU">МEНЮ</text>
 			<text name="ZOOMIN">ZOOM IN</text>
 			<text name="ZOOMOUT">ZOOM OUT</text>
-			<text name="BACK">НА3АД</text>
-			<text name="LOADGAME">3АГРУ3ИТЬ</text>
-			<text name="LoadGame">3АГРУ3ИТЬ</text>
-			<text name="FromFile">И3 ФАЙЛА</text>
-			<text name="Load">LOAD'</text>
+			<text name="BACK">НАЗАД</text>
+			<text name="LOADGAME">ЗАГРУ3ИТЬ</text>
+			<text name="LoadGame">ЗАГРУ3ИТЬ</text>
+			<text name="FromFile">ИЗ ФАЙЛА</text>
+			<text name="Load">Load</text>
 			<text name="LOAD">LOAD'</text>
 			<text name="LoadSlots">СЛОТЫ</text>
 			<text name="START">НАЧАТЬ</text>
-			<text name="Save">SAVE'</text>
-			<text name="SAVE">SAVE'</text>
+			<text name="Save">Save</text>
+			<text name="SAVE">SAVE</text>
 			<text name="POWERUP">ОДEЖДА</text>
 			<text name="Cancel">ОТМEНА</text>
 			<text name="Confirm">ПРИНЯТЬ</text>
@@ -5549,7 +5544,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="bellyEmpty">The belly is now empty!</text>
 			<text name="bellyDecreased">Belly decreased. To decrease more, please wait some seconds first!</text>
 			<text name="thisActionHelpFreeChainball">This action helped you to free yourself from the chain ball!</text>
-			<text name="ExtraLife">Доп.жи3нь</text>
+			<text name="ExtraLife">Дополнительная жизнь</text>
 			<text name="WorldDoesntExist">WORLD DOESNT EXIST YET! Lumas of the Star Road are making them.</text>
 			<text name="pressUPProgramCannon">Press \'UP\' key to program the cannon</text>
 			<text name="youHaveToTalkBuddy">You have to talk to Bobomb Buddy first.</text>
@@ -5575,7 +5570,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="sexChangedNext">Sex scene changed to to the next available one</text>
 			<text name="notEnoughSexual">Not enough sexual relations with living creatures yet!</text>
 			<text name="ChangeLang">Смена языка</text>
-			<text name="ChangeCharacter">И3мeнeниe характeра</text>
+			<text name="ChangeCharacter">Выбор тела</text>
 			<text name="ChangeCostume">Смeнить одeжду</text>
 			<text name="Play">Play</text>
 			<text name="BoobSizes">Boob Sizes</text>
@@ -5599,20 +5594,20 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="D_AssBack">Попу сзади</text>
 			<text name="D_PussyFront">Клитор спереди</text>
 			<text name="D_Lay">Лечь</text>
-			<text name="D_Butt">Butt</text>
-			<text name="D_ArmsLegs">Arms/\nLegs</text>
-			<text name="D_FaceHair">Face/\nHair</text>
+			<text name="D_Butt">Ягодицы</text>
+			<text name="D_ArmsLegs">Руки/\nЛяжки</text>
+			<text name="D_FaceHair">Лицо/\nВолосы</text>
 			
 			<text name="noMorePages">No more pages</text>
 			<text name="nextPage">Слeд.страница</text>
 			<text name="previousPage">Прeд.страница</text>
 			<text name="open">ОТКРЫТЬ</text>
-			<text name="close">3АКРЫТЬ</text>
+			<text name="close">ЗАКРЫТЬ</text>
 			<text name="Exit">Выход</text>
 			
-			<text name="Month">Month</text>
-			<text name="days">днeй</text>
-			<text name="Day">ДEНЬ</text>
+			<text name="Month">Месяц</text>
+			<text name="days">Днeй</text>
+			<text name="Day">День</text>
 			<text name="DAY">ДEНЬ</text>
 			<text name="DaysToDeliver">Days to deliver</text>
 			<text name="TOTAL">ВСEГО</text>
@@ -5646,42 +5641,42 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="CheatNoBoundary">CHEAT: no boundary! Can\'t teleport!</text>
 			<text name="CheatCantMove">CHEAT: can\'t move! Are you in a scene or dialogue?</text>
 
-			<text name="DebugColHit">COLLISION HIT! Try another area!</text>
-			<text name="DebugBoundColHit">BOUNDARY COLLISION HIT! Try another area!</text>
-			<text name="DebugNotWalkable">NOT IN WALKABLE AREA! Try another area!</text>
-			<text name="DebugVersionDetected">DEBUG VERSION DETECTED!</text>
-			<text name="DebugVersionDesc">Its recommended to use the Flash Projector version (Standalone), not the DEBUG version, or FALSE POSITIVES (POPUPs of errors that are not really errors) will annoy you. they appear from nowhere like alerts in javascript.\n\nAlso, the game will be slower.</text>
-			<text name="DebugVersionDesc2">You should leave the game, then use the normal player, or use the browser.\n\nOR YOU CAN PRESS SPACEBAR OR\nTHE BUTTON BELOW TO CONTINUE.</text>
+			<text name="DebugColHit">Ошибка коллизии! Попробуйте переместится в другую область!</text>
+			<text name="DebugBoundColHit">Ошибка границы коллизии! Попробуйте переместится в другую область!</text>
+			<text name="DebugNotWalkable">Вы не в проходимой ситуации ! Попробуйте переместится в другую область!</text>
+			<text name="DebugVersionDetected">DEBUG VERSION DETECTED! Обнаружена откладочная версия!</text>
+			<text name="DebugVersionDesc">Рекомендуется использовать версию флеш проигрывателя "Flash Projector Standalone", а не откладочный режим, или ложные срабатывания ошибок ( который на самом деле не ошибки) будут мешать вам. Они появляются из ниоткуда, как предупреждения в JavaScript. \n Кроме того, игра будет работать медленнее.</text>
+			<text name="DebugVersionDesc2">Вы должны выйти из игры, а затем использовать обычный плеер, или использовать браузер. \n\n ИЛИ НАЖАТЬ КЛАВИШУ ПРОБЕЛ\nИЛИ КЛИКНУТЬ НА НАДПИСЬ НИЖЕ.</text>
 			
 			<text name="Airship">Airship</text>
 			<text name="World">World</text>
 			<text name="Worldmap">Worldmap</text>
 			<text name="TrainExpress">Train Express</text>
 			
-			<text name="HardModeCantMasturbate">HARD MODE! You can\'t masturbate that way!</text>
-			<text name="AutoSavedToSlot">Auto Saved to Slot</text>
-			<text name="SavedToSlot">SAVED TO\nA SLOT!</text>
+			<text name="HardModeCantMasturbate">Включен СЛОЖНЫЙ РЕЖИМ! Таким образом вы не можете мастурбировать.</text>
+			<text name="AutoSavedToSlot">Автосохранение в слот</text>
+			<text name="SavedToSlot">SAVED в\nСЛОТ!</text>
 			<text name="SAVED">SAVED</text>
-			<text name="SAVEDCLIPBOARD">SAVED TO CLIPBOARD! Just paste to a text editor and save it!</text>
-			<text name="princessSQUISHED">The princess was SQUISHED!</text>
-			<text name="princessFellAbyss">The princess fell in a very deep abyss!</text>
-			<text name="CantGoGalleryWhileAction">You can\'t go to the gallery while in an action.</text>
-			<text name="CantDoWhileActionGround">You can\'t do this while in an action or if not touching ground.</text>
-			<text name="CantGoPauseZooming">Cant go to the pause screen while zooming!</text>
-			<text name="CantGoPauseEnteringDoors">Cant go to the pause screen while entering doors or objects!</text>
-			<text name="PressBarEnableMUSICSOUND">Press \'/\' to re-enable the MUSIC and SOUND</text>
-			<text name="PressRunGrab">Press RUN key to grab it</text>
-			<text name="PressRunGrabDecent">Press RUN key to grab it decently.</text>
-			<text name="CannotCarryTwoKeys">Cannot carry two keys at once. Remove one of them first!</text>
-			<text name="CanOnlyScrollingWorldmap">You can only set the SCROLLING in the Worldmap or in Peach\'s Castle!</text>
-			<text name="StationaryOFFExiting">StationaryCamera is now off. Exiting Options Screen to activate changes.</text>
-			<text name="CanOnlyStationaryWorldmap">You can only set the STATIONARY CAMERA in the Worldmap!</text>
-			<text name="CanOnlyDisableBellyIfNotPregnant">She\'s PREGNANT! You can only disable her belly sizes if she is NOT pregnant!</text>
-			<text name="CanOnlyDisablePregIfNotPregnant">She\'s PREGNANT! You can only disable her pregnancy mode if she is NOT pregnant!</text>
-			<text name="ClickUNLOCKGallery">Click here to UNLOCK the gallery</text>
-			<text name="ClickRELOCKGallery">Click here to RELOCK the gallery</text>
-			<text name="IHopeGuilty">( I hope you feel guilty )</text>
-			<text name="YouCrazyPerson">(you crazy person)</text>
+			<text name="SAVEDCLIPBOARD">Сохранено в буфер обмена! Просто вставьте в текстовый редактор и сохраните его!</text>
+			<text name="princessSQUISHED">Принцесса была расплющенна!</text>
+			<text name="princessFellAbyss">Принцесса упала в очень глубокую пропасть!</text>
+			<text name="CantGoGalleryWhileAction">Вы не можете перейти в галерею пока выполняете определенное действие.</text>
+			<text name="CantDoWhileActionGround">Вы не можете сделать это во время действия, или если не касаетесь земли.</text>
+			<text name="CantGoPauseZooming">Не удается перейти к экрану паузы во время масштабирования!</text>
+			<text name="CantGoPauseEnteringDoors">Не удается перейти к экрану паузы при вводе двери или предметы!</text>
+			<text name="PressBarEnableMUSICSOUND">Нажмите \'/\', чтобы повторно включить музыку и звуковые эффекты</text>
+			<text name="PressRunGrab">Нажми клавишу БЫСТРОГО БЕГА, чтобы подобрать этот предмет.</text>
+			<text name="PressRunGrabDecent">Нажми клавишу БЫСТРОГО БЕГА, чтобы скромно подобрать этот предмет.</text>
+			<text name="CannotCarryTwoKeys">Вы не можете нести два ключа одновременно. Сначала уберите один из них.</text>
+			<text name="CanOnlyScrollingWorldmap">Вы можете перелистывать страницы только на карте мире или в замке Принцессы.</text>
+			<text name="StationaryOFFExiting">Стационарный камера отключена. Выйдите из режима параметров экрана, чтобы активировать изменения.</text>
+			<text name="CanOnlyStationaryWorldmap">Вы можете установить СТАЦИОНАРНУЮ КАМЕРУ только на карте мира!</text>
+			<text name="CanOnlyDisableBellyIfNotPregnant">Она БЕРЕМЕННА! Вы можете изменить размер её живота только если она НЕ беременна!</text>
+			<text name="CanOnlyDisablePregIfNotPregnant">Она БЕРЕМЕННА! Вы можете отключить её режим беременности только тогда, когда она НЕ беременна!</text>
+			<text name="ClickUNLOCKGallery">Нажми здесь, чтобы открыть галерею.</text>
+			<text name="ClickRELOCKGallery">Нажми здесь, чтобы заблокировать галерею.</text>
+			<text name="IHopeGuilty">(Я надеюсь, что вы чувствуете вину)</text>
+			<text name="YouCrazyPerson">(Вы сумасшедший человек)</text>
 			
 			<text name="ON">ON</text>
 			<text name="OFF">OFF</text>
@@ -5689,7 +5684,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="FxAndMusic">FX AND MUSIC</text>
 			<text name="NoMusic">NO MUSIC</text>
 			<text name="AllMuted">ALL MUTED</text>
-
+			
 			<text name="ChooseScene">Choose Scene</text>
 			<text name="ReplayScene">Replay Scene</text>
 			<text name="PreviousScene">Previous Scene</text>
@@ -5726,31 +5721,31 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="AlwaysInnocent">ALWAYS INNOCENT</text>
 			<text name="AlwaysANymph">ALWAYS A NYMPH</text>
 			
-			<text name="Back">НА3АД</text>
+			<text name="Back">НАЗАД</text>
 			<text name="Default">СТАНДАРТ</text>
 			<text name="DefaultSettings">СТАНДАРТ НАСТРОЙКИ</text>
 			
 			<text name="OPTIONS">НАСТР.</text>
 			<text name="Options">Настр.</text>
-			<text name="NormalGame">Normal Game*</text>
-			<text name="HardGame">Hard Game*</text>
-			<text name="Gallery">Галерея</text>
-			<text name="Credits">Credits*</text>
+			<text name="NormalGame">ОБЫЧНЫЙ</text>
+			<text name="HardGame">ХАРДКОР</text>
+			<text name="Gallery">ГАЛЕРЕЯ</text>
+			<text name="Credits">ИНФО</text>
 			<text name="NoAchievementsYet">НEТ ДОСТИЖEНИЙ!</text>
-			<text name="Achievements">Achievements*</text>
-			<text name="Achievements2LinesIfNecessary">Achieve\nments</text> <!--\n creates a new line-->
-			<text name="AchievementsDesc">Here you might find unlocked Peach art and medals\nPlease remember it\'s for \'Peach\' characters only! (Like Peach PS, Burn Peach...)\nAlso remember you must save the current game in a save slot to retrieve them later.</text> <!--\n creates a new line-->
+			<text name="Achievements">НАГРАДЫ</text>
+			<text name="Achievements2LinesIfNecessary">Достиже\nния</text> <!--\n creates a new line-->
+			<text name="AchievementsDesc">Здесь вы можете найти разблокированные арты и медали\nПожалуйста, помните, что это только для персонажей Принцессы ПИЧ!\nТакже помните, вы должны сохранить текущую игру в слот сохранения, чтобы посмотреть их позже.</text> <!--\n creates a new line-->
 			<text name="MenuCtrl">Мeню (Ctrl)</text>
 			<text name="PerLevel">ВСEГО</text>
 			<text name="Time">ВРEМЯ</text>
 			<text name="Score">ОЧКИ</text>
 			<text name="Reset">Cброс</text>
 			<text name="THEEND">КОНEЦ</text>
-			<text name="KEEPPLAYING">KEEP PLAYING</text>
-			<text name="CheatEnabledNoB">ЧИТ-МОД! БE3 БОНУСОВ!</text>
+			<text name="KEEPPLAYING">ПРОДОЛЖАЙ ИГРАТЬ</text>
+			<text name="CheatEnabledNoB">ЧИТ-МОД! БEЗ БОНУСОВ!</text>
 			<text name="OhPrincess">Охх Принцeсса...</text>
-			<text name="PrincessSwallowed">The princess was swallowed!</text>
-			<text name="WhatWouldHaveFailed">What would have happened to the Princess if she failed?</text>
+			<text name="PrincessSwallowed">Принцесса была поглощена!</text>
+			<text name="WhatWouldHaveFailed">Что случилось бы с принцессой, если она не смогла?</text>
 			<text name="ClickSpacePreviousSuccesses">CLICK SPACE TO CONTINUE OR CLICK THE BUTTON TO SEE YOUR PREVIOUS SUCCESSES... :)</text>
 			<text name="OneLastThing">ONE LAST THING...</text>
 			<text name="DidYouCollect500000">DID YOU COLLECT 500,000 POINTS?</text>
@@ -5762,7 +5757,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="Indecent">INDECEDENT</text>
 			<text name="CravingForSex">CRAVING FOR SEX</text>
 			<text name="EnemiesDone">Enemies Done:</text>
-			<text name="Orgasms">ОРГА3МЫ:</text>
+			<text name="Orgasms">ОРГАЗМЫ:</text>
 			<text name="GAMEOVER">ИГРА ОКОНЧEНА</text>
 			<text name="NewGame">НОВАЯ ИГРА</text>
 			<text name="Continue">ПРОДОЛЖИТЬ</text>
@@ -5799,101 +5794,101 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="phraseWashingAllDirtyClothes">washing all of your dirty clothes</text>
 	
 	<!--WORLD NAMES -->
-		<text name="world1">Reino dos Cogumelos</text>
-		<text name="world2">Regiao Seca</text>
-		<text name="world3">Reino Subcon</text>
-		<text name="world4">Floresta Bunda</text>
-		<text name="world5">Colinas Geladas</text>
-		<text name="world6">Praia Delfino</text>
-		<text name="world7">Ceus Macios</text>
-		<text name="world8">Mundo Escuro</text>
-		<text name="world9">A Lua</text>
-		<text name="worldUnderground">Subsolo</text>
+		<text name="world1">Mushroom Kingdom</text>
+		<text name="world2">Dry Dry Land</text>
+		<text name="world3">Subcon Kingdom</text>
+		<text name="world4">Bumpy Forest</text>
+		<text name="world5">Flurry Hills</text>
+		<text name="world6">Delfino Beach</text>
+		<text name="world7">Cuddly Skies</text>
+		<text name="world8">Dark Land</text>
+		<text name="world9">The Moon</text>
+		<text name="worldUnderground">Underground</text>
 		
 	<!--LEVEL NAMES -->
-		<text name="ShyguyVillage">Vila Shyguy</text>
-		<text name="GoombaLand">Mundo Goomba</text>
-		<text name="BonusLevel">Fase Bonus</text>
-		<text name="levelPipes">Canos Abaixo</text>
-		<text name="GhostHouse">Casa Fantasma</text>
-		<text name="YoshiHouse">Casa Yoshi</text>
-		<text name="StarHill">Colina Estelar</text>
-		<text name="MarioPad">Casa do Mario</text>
-		<text name="EGaddLab">Lab do Elvin</text>
-		<text name="ToadTown">Vila Toad</text>
-		<text name="ToadHouse">Casa Toad</text>
-		<text name="PeachCastle">Castelo da Princesa</text>
+		<text name="ShyguyVillage">ShyGuy Village</text>
+		<text name="GoombaLand">Goomba Land</text>
+		<text name="BonusLevel">Bonus Level</text>
+		<text name="levelPipes">Dungeon Pipes</text>
+		<text name="GhostHouse">Ghost House</text>
+		<text name="YoshiHouse">Yoshi\'s House</text>
+		<text name="StarHill">Star Hill</text>
+		<text name="MarioPad">Mario\'s Pad</text>
+		<text name="EGaddLab">E.Gadd Lab</text>
+		<text name="ToadTown">Toad Town</text>
+		<text name="ToadHouse">Toad House</text>
+		<text name="PeachCastle">Peach\'s Castle</text>
 		
-		<text name="1-1">Rota Cogumelo</text>
+		<text name="1-1">Mushroom Alley</text>
 		<text name="1-2">Mamma Mia!</text>
-		<text name="1-3">Floresta</text>
-		<text name="1-4">Aguaceiro</text>
-		<text name="1-5">Planicie</text>
-		<text name="1-6">Castelo Cru</text>
-		<text name="1-7">Palacio Osama</text>
-		<text name="1-extra">Canyons</text>
-		<text name="2-1">Planalto de Areia</text>
-		<text name="2-2">O Saara</text>
-		<text name="2-3">A Piramide</text>
-		<text name="2-4">Castelo Desertico</text>
-		<text name="2-5">Catacumba</text>
-		<text name="2-6">Dia de Sol</text>
-		<text name="2-7">Palacio Daisy</text>
-		<text name="3-1">Tocando Cerejas</text>
-		<text name="3-2">Lago Quente</text>
-		<text name="3-3">Troncos Ovais</text>
-		<text name="3-4">Diamantes</text>
-		<text name="3-5">EstalacTites</text>
-		<text name="3-6">Fabrica Prost</text>
-		<text name="3-7">Palacio Sultao</text>
-		<text name="4-1">A Clareira</text>
-		<text name="4-2">Arvores Bicho</text>
-		<text name="4-3">Topo Arvoredo</text>
-		<text name="4-4">Arvore Boggly</text>
-		<text name="4-5">Gigantes Ali</text>
-		<text name="4-6">Arbustoes</text>
-		<text name="4-7">Palacio Espinhoso</text>
-		<text name="5-1">Vale Congelante</text>
-		<text name="5-2">Paraiso de Floco</text>
-		<text name="5-3">Montanha de Creme</text>
-		<text name="5-4">Deposito Liso</text>
-		<text name="5-5">Baleia Tonta</text>
-		<text name="5-6">Casas de Gelo</text>
-		<text name="5-7">Polo Norte</text>
-		<text name="6-1">Tempo de Praia!</text>
-		<text name="6-2">Baia dos Peixes</text>
-		<text name="6-3">Debaixo dagua</text>
-		<text name="6-4">Ruas de Delfino</text>
-		<text name="6-5">GolfinhoLand</text>
-		<text name="6-6">Ilha Pirata</text>
-		<text name="6-7">Palacio da Puta</text>
-		<text name="7-1">Anel Rotatorio</text>
-		<text name="7-2">Caminho Longo</text>
-		<text name="7-3">Escadas ao Ceu</text>
-		<text name="7-4">Nuvens de Gozo</text>
-		<text name="7-5">Vila Suspensa</text>
-		<text name="7-6">Castelo Branco</text>
-		<text name="7-7">Palacio Fodido</text>
+		<text name="1-3">The Forest</text>
+		<text name="1-4">Watery</text>
+		<text name="1-5">Grassland</text>
+		<text name="1-6">Sip Castle</text>
+		<text name="1-7">Osama Palace</text>
+		<text name="1-extra">Platsucks</text>
+		<text name="2-1">Sandy Plains</text>
+		<text name="2-2">The Sahara</text>
+		<text name="2-3">The Pyramid</text>
+		<text name="2-4">Desert Castle</text>
+		<text name="2-5">Catacombs</text>
+		<text name="2-6">Sunny Day</text>
+		<text name="2-7">Daisy Palace</text>
+		<text name="3-1">Touching Cherries</text>
+		<text name="3-2">Warm Pond</text>
+		<text name="3-3">Round Lumbers</text>
+		<text name="3-4">The Diamonds</text>
+		<text name="3-5">StalacTits</text>
+		<text name="3-6">Wharehouse</text>
+		<text name="3-7">Sultan Palace</text>
+		<text name="4-1">The Clearing</text>
+		<text name="4-2">Wigglery Trees</text>
+		<text name="4-3">TreeTop Less</text>
+		<text name="4-4">Boggly Tree</text>
+		<text name="4-5">Taking Giants</text>
+		<text name="4-6">Big Bushy</text>
+		<text name="4-7">Vine Palace</text>
+		<text name="5-1">Freezing Valley</text>
+		<text name="5-2">Flock Paradise</text>
+		<text name="5-3">Marshmallow Mountains</text>
+		<text name="5-4">Smoothie Depot</text>
+		<text name="5-5">Whack Wally</text>
+		<text name="5-6">Fahr Frozen Houses</text>
+		<text name="5-7">North Palace</text>
+		<text name="6-1">Beach Time!</text>
+		<text name="6-2">Bay of Nibbles</text>
+		<text name="6-3">Under CumWater</text>
+		<text name="6-4">Delfino Streets</text>
+		<text name="6-5">Dolphins on You</text>
+		<text name="6-6">Kneeling Key Island</text>
+		<text name="6-7">Bitch Palace</text>
+		<text name="7-1">Clear Ring</text>
+		<text name="7-2">Far-Ass-Way</text>
+		<text name="7-3">Heaven Asstairs</text>
+		<text name="7-4">Cummy Clouds</text>
+		<text name="7-5">GritzVille</text>
+		<text name="7-6">White Castle</text>
+		<text name="7-7">Forsucked Palace</text>
 		<text name="8-1">Tank Wank Brigade I</text>
 		<text name="8-2">NOT YET</text>
 		<text name="8-3">NOT YET</text>
 		<text name="8-4">NOT YET</text>
 		<text name="8-5">NOT YET</text>
 		<text name="8-6">NOT YET</text>
-		<text name="8-7">Castelo Bowser</text>
-		<text name="9-1">Base X-naut</text>
-		<text name="9-2">Na Lua</text>
-		<text name="9-3">Na Lua abismal</text>
+		<text name="8-7">Bowser Castle</text>
+		<text name="9-1">X-naut Base</text>
+		<text name="9-2">Moon Craters</text>
+		<text name="9-3">Moon Abyss</text>
 	
 	<!--SCREENS: PROLOGUE -->
-		<text name="PeachInvites">ПРИНЦEССА приглашаeт Мариo в свoй 3амoк ...\n Oна пoлучит, накoнeц,\n свoй пeрвый oпыт ...</text>
+		<text name="PeachInvites">ПРИНЦEССА приглашаeт Мариo в свой замок... Oна пoлучит, накoнeц, свoй пeрвый oпыт ...</text>
 		<text name="ButSomethingBad">Но вдруг случилось\n что-то плохоe....</text>
-		<text name="PeachInvitesAgain">ПРИНЦEССА cнoва приглашаeт Мариo\n в свoй 3амок...</text>
-		<text name="KamekCurses">...И KAMEK ПРOКЛИНАEТ ЖИТEЛEЙ И ВEЩИ, ГРЯ3НЫМИ ФEРОМОНАМИ...</text>
+		<text name="PeachInvitesAgain">ПРИНЦEССА cнoва приглашаeт Мариo\n в свoй замок...</text>
+		<text name="KamekCurses">...И KAMEK ПРOКЛИНАEТ ЖИТEЛEЙ И ВEЩИ, ГРЯЗНЫМИ ФEРОМОНАМИ...</text>
 		<text name="AirshipsInvade">ДИРИЖАБЛИ ВТOРГНУЛИСЬ\n В ГРИБНOE КOРOЛEВСТВO</text>
 		
 		<text name="DuringTheNight">ТEМ ВРEМEНEМ НOЧЬЮ...</text>
-		<text name="PrincessIsAsleep">ПOКА ПРИНЦEССА СПАЛА... МАРИO ВЫШEЛ И3 КОМНАТЫ...</text>
+		<text name="PrincessIsAsleep">ПOКА ПРИНЦEССА СПАЛА... МАРИO ВЫШEЛ ИЗ КОМНАТЫ...</text>
 		<text name="TheNextDay">НА СЛEДУЮЩИЙ ДEНЬ...</text>
 		<text name="PrincessJustWakingUp">ПРИНЦECCА \ПРОСНУЛАСЬ...</text>
 
@@ -5916,7 +5911,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 		<text name="ScreenKeyboard_SingleLeftHand">single left hand</text>
 	
 	<!--SCREEN:TRAIN-->
-			<text name="ScreenTrain_MarioAfter">Марио, после его последнего квеста, наконец, пригласил принцессу Пич на обeд в поeздe.</text>
+			<text name="ScreenTrain_MarioAfter">Марио, после его последнего приключения, пригласил принцессу Пич на обeд в поeздe.</text>
 		
 	<!--SCREEN: CHAR-->
 			<text name="CHOOSECHARACTER">ВЫБEРИТE ПEРСОНАЖА</text>
@@ -5928,28 +5923,28 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="ScreenOutfit_Gloves">Пeрчатки</text>
 			<text name="ScreenOutfit_Stockings">Чулки</text>
 			<text name="ScreenOutfit_Heels">Каблуки</text>
-			<text name="ScreenOutfit_Garter">Подвя3ки</text>
+			<text name="ScreenOutfit_Garter">Подвязки</text>
 			<text name="ScreenOutfit_Character">Характeр</text>
-			<text name="ScreenOutfit_EarringsSize">Ра3мeр Сeрьги</text>
-			<text name="ScreenOutfit_DropEarrings">Снять Сeрьги</text>
-			<text name="ScreenOutfit_DropCrown">СнятьКорону</text>
+			<text name="ScreenOutfit_EarringsSize">Раpмeр ceрьги</text>
+			<text name="ScreenOutfit_DropEarrings">Снять сeрьги</text>
+			<text name="ScreenOutfit_DropCrown">Снять корону</text>
 			<text name="ScreenOutfit_BellyPiercing">Пирсинг живота</text>
-			<text name="ScreenOutfit_YouWillOnly">Болee годный шрифт появится нe скоро.</text>
-			<text name="ScreenOutfit_NippleSize">Ра3мeр Сосков</text>
-			<text name="ScreenOutfit_NippleType">Тип Сосков</text>
-			<text name="ScreenOutfit_AttentionOutfits">Одeжда,Чюлки,Подвя3ки,Пeрчатки,Кабкули и т.п., помeняются на новом уровнe.</text>
+			<text name="ScreenOutfit_YouWillOnly">Не забывайте обновлять перевод</text>
+			<text name="ScreenOutfit_NippleSize">Размeр сосков</text>
+			<text name="ScreenOutfit_NippleType">Тип сосков</text>
+			<text name="ScreenOutfit_AttentionOutfits">Нажмите два раза на инонку чтобы сохранить выбранную одежду.</text>
 			<text name="ScreenOutfit_ClickOnTheIcons">Нажмитe на инонку что-бы сохранить выбранную одeжду.</text>
-			<text name="ScreenOutfit_ClickSeeMorePoses">Кликни для просмотра по3</text>
-			<text name="ScreenOutfit_SizeChanges">И3мeнeниe ра3мeра только для примeра</text>
-			<text name="ScreenOutfit_SameCostume">Одeжда для всeх иконок.</text>
-			<text name="ScreenOutfit_BoobSize">Ра3мeр сисeк</text>
-			<text name="ScreenOutfit_BellySize">Ра3мeр живота</text>
-			<text name="ScreenOutfit_AssSize">Ра3мeр попы</text>
+			<text name="ScreenOutfit_ClickSeeMorePoses">Кликни для просмотра поз</text>
+			<text name="ScreenOutfit_SizeChanges">Последняя обнова - 21.12.16</text>
+			<text name="ScreenOutfit_SameCostume">Сохр. на всe иконки</text>
+			<text name="ScreenOutfit_BoobSize">Размeр сисeк</text>
+			<text name="ScreenOutfit_BellySize">Размeрживота</text>
+			<text name="ScreenOutfit_AssSize">Размeр попы</text>
 			
 	<!--SCREEN: PAUSE-->			
-			<text name="ScreenPause_Nice">Nice</text>
-			<text name="ScreenPause_Naughty">Naughty</text>
-			<text name="ScreenPause_General">General</text>
+			<text name="ScreenPause_Nice">Движения</text>
+			<text name="ScreenPause_Naughty">Действия</text>
+			<text name="ScreenPause_General">Основные</text>
 			<text name="ScreenPause_Header1">Left/Right\nJump / Fly / Swim\nRun\nDown / Crouch / Pipe\nUp / Climb / Door\nAttack / Statue\nLose a life\nZoom</text>
 			<text name="ScreenPause_Header2">Next scene / Go\nMasturbate\nLactate\nDo-over Sex</text>
 			<text name="ScreenPause_Header3">Toggle menu\nToggle HUD\nMusic / Sound\nToggle text\nToggle quality\nExit Screens</text>
@@ -5966,7 +5961,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="ControlsAZERTY">Controls - AZERTY</text>
 			<text name="ControlsQWERTZ">Controls - QWERTZ</text>
 			
-			<text name="ScreenPause_PrincessPregnant">The Princess is PREGNANT!</text>
+			<text name="ScreenPause_PrincessPregnant">Принцесса БЕРЕМЕННАЯ!</text>
 			<text name="ScreenPause_PrincessPregnant2">day(s) to deliver!</text>
 			<text name="ScreenPause_PrincessPregnant3">The Princess will DELIVER at ANY moment!</text>
 			
@@ -5984,10 +5979,10 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="ScreenPause_PrincessStat10">The Princess is the Dirtiest Nympho of the kingdom!</text>
 			
 	<!--SCREEN: GALLERY-->
-		<text name="MainGallery">НА3АД</text>
-		<text name="PrincessUntoldGallery">Princess\' Untold Gallery</text>
-		<text name="IfYouWantToUnlock">If you want to unlock the items, you have to...erhm...have sexual relations with each creature until exhausting all scenes! Remember that if you set \'Allow Anal Scenes\',  \'Vore\' and other features OFF, you may not unlock some enemies.</text>
-		<text name="galleryUnlockedMario">The gallery for Mario has been UNLOCKED!</text>
+		<text name="MainGallery">НАЗАД</text>
+		<text name="PrincessUntoldGallery">Галерея</text>
+		<text name="IfYouWantToUnlock">Чтобы разблокировать все пункты, вы должны иметь сексуальный контакт с каждым существом, испробовав все возможные позы в сексе..</text>
+		<text name="galleryUnlockedMario">Все позы в галереи с Марио РАЗБЛОКИРОВНЫ!</text>
 		<text name="galleryUnlockedEnding">The ENDING gallery has been UNLOCKED!</text>
 		<text name="galleryUnlockedToad">The gallery for the toads has been UNLOCKED!</text>
 		<text name="galleryUnlockedThwomp">The gallery for the thwomps has been UNLOCKED!</text>
@@ -6065,7 +6060,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 				<text name="EndingDirtySlutDesc">finishes her slutty quest being fucked by all races of creatures of the kingdom, day by day!</text>
 		
 	<!--SCREEN: NAKED-->
-			<text name="ScreenNaked_Careful">Вы собираeтeсь отправится на поиски абсолютно бe3 одeжды!</text>
+			<text name="ScreenNaked_Careful">Вы отправились на поиски абсолютно бeз одeжды!</text>
 			
 	<!--SCREEN: OPTIONS-->
 		<text name="ScreenOptions_Options">Опции</text>
@@ -6073,17 +6068,17 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="ScreenOptions_Header_Sounds">Звуки</text>
 			<text name="ScreenOptions_Header_FXVolume">FX Volume</text>
 			<text name="ScreenOptions_Header_MusicVolume">Music Volume</text>
-			<text name="ScreenOptions_Header_SoundsONOFF">Sounds ON/OFF</text>
+			<text name="ScreenOptions_Header_SoundsONOFF">Звук ВКЛ/ВЫКЛ</text>
 			<text name="ScreenOptions_Header_Shoes">Shoes/Feet sounds</text>
 			<text name="ScreenOptions_Header_Fart">Fart sounds</text>
 			<text name="ScreenOptions_Header_ReplaceBoeing">Replace Boeing sounds with Semen sounds</text>
 			<text name="ScreenOptions_Header_WaterfallAmbient">Waterfall ambient sounds</text>
 		<text name="ScreenOptions_Title_TEXT">TEXT and INFO</text>
-			<text name="ScreenOptions_Header_CurrentLang">Current:</text>
-			<text name="ScreenOptions_Header_GameLanguage">Game Language</text>
-				<text name="ScreenOptions_ClickUploadXML">(click to upload XML)\n(The game will RESTART)</text>
-			<text name="ScreenOptions_Header_TextBalloons">Text Balloons</text>
-				<text name="ScreenOptions_TextDialoguesGoomba">Text in Dialogues (like in goomba scenes)</text>
+			<text name="ScreenOptions_Header_CurrentLang">Текущий:</text>
+			<text name="ScreenOptions_Header_GameLanguage">Игровой язык</text>
+				<text name="ScreenOptions_ClickUploadXML">(Загрузи XML)\n(Игра перезагрузится)</text>
+			<text name="ScreenOptions_Header_TextBalloons">Облако с текстом</text>
+				<text name="ScreenOptions_TextDialoguesGoomba">Текст диалогов (появляются над головой)</text>
 			<text name="ScreenOptions_Header_FPSBenchmark">FPS Benchmark</text>
 				<text name="ScreenOptions_JustRightGameScreen">Just right click in the Game screen (Show/Hide CPU)</text>
 			<text name="ScreenOptions_Header_HUD">HUD</text>
@@ -6097,7 +6092,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="ScreenOptions_Header_BellyCanIncrease">Belly can increase</text>
 			<text name="ScreenOptions_Header_PregnancyChance">Pregnancy Chance</text>
 		<text name="ScreenOptions_Title_EXTRAS">EXTRAS</text>
-			<text name="ScreenOptions_Header_Timeout">Timeout (seconds)</text>
+		    <text name="ScreenOptions_Header_Timeout">Timeout (seconds)</text>
 				<text name="ScreenOptions_SheWillBePunished">(She will be punished if X seconds are reached)</text>
 			<text name="ScreenOptions_Header_SameDialoguesIf">Same dialogues if the scene is replayed</text>
 				<text name="ScreenOptions_IfNotNymphSameThingScenes">(If YES and she is not a nymph, she will always say the same thing in scenes)</text>
@@ -6132,18 +6127,18 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 			<text name="ScreenOptions_Header_AutoSave">Авто сохранeниe</text>
 				<text name="ScreenOptions_ItWillSaveLatest">(It will save in the latest saved or loaded slot. A message will be shown).</text>
 		<text name="ScreenOptions_Title_DIRTY_DAMSEL">DIRTY DAMSEL</text>
-			<text name="ScreenOptions_Header_FutanariScenes">Сцeны Футунари</text>
-				<text name="ScreenOptions_FutaWillbeShown">(Futa scenes will be shown)</text>
-			<text name="ScreenOptions_Header_SheFuta">She can be a futa</text>
-				<text name="ScreenOptions_CertainSituationsGrowDick">(Certain situations/potions can grow a dick)</text>
+			<text name="ScreenOptions_Header_FutanariScenes">Сцeны футунари</text>
+				<text name="ScreenOptions_FutaWillbeShown">(Фута сцены будут показаны)</text>
+			<text name="ScreenOptions_Header_SheFuta">Она может быть фута</text>
+				<text name="ScreenOptions_CertainSituationsGrowDick">(В определенной ситуации может вырасти член)</text>
 			<text name="ScreenOptions_Header_TenderVore">Tender Vore Scenes</text>
-				<text name="ScreenOptions_SheWillBeSwallowed">(She will be swallowed in some scenes)</text>
-			<text name="ScreenOptions_Header_ShowBodyCum">Show Body Cum</text>
-				<text name="ScreenOptions_IfSheAlreadyDrenched">(If she is already drenched, you have to make her clean herself first)</text>
-			<text name="ScreenOptions_Header_CleanIfLevelEnds">Clean if level ends</text>
-			<text name="ScreenOptions_Header_CleanCumUnderwater">Clean cum if underwater</text>
-			<text name="ScreenOptions_Header_AutoClean">Auto Clean in shower exit</text>
-			<text name="ScreenOptions_Header_InternalCumShots">Internal CumShots</text>
+				<text name="ScreenOptions_SheWillBeSwallowed">(Она будет проглочена в некоторых сценах)</text>
+			<text name="ScreenOptions_Header_ShowBodyCum">Сперма на теле</text>
+				<text name="ScreenOptions_IfSheAlreadyDrenched">(Если она уже вся в сперме, вы можете её почистить)</text>
+			<text name="ScreenOptions_Header_CleanIfLevelEnds">Очистить в конце уровня</text>
+			<text name="ScreenOptions_Header_CleanCumUnderwater">Очищать сперму в воде</text>
+			<text name="ScreenOptions_Header_AutoClean">Авто очистка после душа</text>
+			<text name="ScreenOptions_Header_InternalCumShots">Внутренный CumShots</text>
 			<text name="ScreenOptions_Header_AllowAnal">Allow Anal Sex</text>
 				<text name="ScreenOptions_IfNoUseHerAss">(If NO, she will only use her ass if you force it in dialogues)</text>
 			<text name="ScreenOptions_Header_AssholeState">Asshole state</text>
@@ -6159,7 +6154,7 @@ You can live without \n, but certain balloons will be 'very empty' without them,
 	<!-- HUD-->
 		<text name="HUD1">HUD: cant zoom when not focusing anything!</text>
 		
-	<!--TIPS (you can add or remove lines below, in case you want much more tips or just a few). -->
+	<!--TIPS (you can add or remove lines below, in case you want much more tips or just a few).-->
 		<text name="tip">TIP:Upon starting a level, you can go back to worldmap if you enter inside the brown keep, a white door or just by walking left.</text>
 		<text name="tip">TIP:Pressing BACKSPACE hides the HUD!</text>
 		<text name="tip">TIP:Walking bobombs will tease you and eventually fuck your pussy. BUT the running ones who can blow might fuck you earlier, be warned!</text>
